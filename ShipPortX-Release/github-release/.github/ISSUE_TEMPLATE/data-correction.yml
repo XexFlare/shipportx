@@ -1,0 +1,36 @@
+name: Data correction
+description: A value in an existing record is wrong, outdated or missing.
+title: "[Correction] <port_id>: <field>"
+labels: ["data-correction"]
+body:
+  - type: input
+    id: port_id
+    attributes:
+      label: port_id
+      description: The record's ID, e.g. GH-tema (shown on the website and in every file).
+    validations:
+      required: true
+  - type: input
+    id: field
+    attributes:
+      label: Field
+      description: e.g. operating_status, latitude/longitude, unlocode, port_authority
+    validations:
+      required: true
+  - type: textarea
+    id: values
+    attributes:
+      label: Current value → proposed value
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source(s)
+      description: Public link(s), ideally official (port authority, ministry, gazette, UNECE). For figures, include the year.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes

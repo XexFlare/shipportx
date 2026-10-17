@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.netlify/
+.env
+.env.local
+.bundle-check/
+**/.claude/settings.local.json
+
+# Pre-cleanup snapshot kept on disk only
+_backup-*/
+__pycache__/
+
+# Local-only notes for the AI assistant (this repo is public)
+CLAUDE.md

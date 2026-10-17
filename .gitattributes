@@ -1,0 +1,10 @@
+# Data files and checksums are published byte for byte. Never convert line endings
+# (core.autocrlf on Windows would change them and break SHA256SUMS).
+* text=auto
+*.csv -text
+*.json -text
+*.jsonl -text
+*.parquet -text
+*.tsv -text
+SHA256SUMS -text
+*.sha256 -text

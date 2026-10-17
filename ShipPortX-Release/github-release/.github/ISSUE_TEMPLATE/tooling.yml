@@ -1,0 +1,16 @@
+name: Documentation or tooling problem
+description: Problems with the files, documentation, scripts, examples or the API.
+title: "[Tooling] "
+labels: ["tooling"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to reproduce
+      description: Command, code or URL; include versions (OS, Node/Python, library) where relevant.

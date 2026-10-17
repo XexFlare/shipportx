@@ -1,0 +1,42 @@
+name: Missing port or facility
+description: A real port, harbour, landing site, terminal or ferry port that is not in ShipPortX.
+title: "[Missing] <name>, <country>"
+labels: ["new-port"]
+body:
+  - type: markdown
+    attributes:
+      value: Size is never a reason to leave a facility out, small fishing landings and lake or river ports are welcome.
+  - type: input
+    id: name
+    attributes:
+      label: Name (and other names)
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Country and nearest settlement
+    validations:
+      required: true
+  - type: input
+    id: coordinates
+    attributes:
+      label: Coordinates (if known)
+      description: Decimal degrees, south and west negative, e.g. -4.0475, 39.635
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options: [major_commercial, secondary_commercial, fishing_harbour, river_port, lake_port, oil_terminal, gas_terminal, mining_export_terminal, ferry_terminal, passenger_port, industrial_port, other]
+  - type: dropdown
+    id: status
+    attributes:
+      label: Operating status
+      options: [ACTIVE, ACTIVE_LIMITED, SEASONAL, INACTIVE, HISTORICAL, UNDER_CONSTRUCTION, PROPOSED, ABANDONED, UNKNOWN]
+  - type: textarea
+    id: source
+    attributes:
+      label: Source(s)
+      description: Public evidence that the facility exists and how it is used.
+    validations:
+      required: true

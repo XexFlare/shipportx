@@ -1,0 +1,20 @@
+{
+  "name": "shipportx",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ShipPortX: an open, research-derived dataset of African ports (data, provenance, validation and examples).",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "example:json": "node examples/javascript/read-json.mjs",
+    "example:csv": "node examples/javascript/read-csv.mjs",
+    "example:api": "node examples/javascript/api-client.mjs"
+  },
+  "dependencies": {
+    "hyparquet": "1.31.4"
+  },
+  "keywords": ["africa", "ports", "maritime", "dataset", "open-data", "geospatial"]
+}

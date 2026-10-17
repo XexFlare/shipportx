@@ -1,0 +1,642 @@
+{
+  "wpi_snapshot": "world-port-index-2026-10-17.json",
+  "shipportx_records": 283,
+  "wpi_ports": 2951,
+  "wpi_african_ports": 232,
+  "matched": 89,
+  "matched_by_method": {
+    "unlocode": 74,
+    "proximity_and_name": 13,
+    "proximity": 2
+  },
+  "matches_over_25_km": [],
+  "wpi_added": 2862,
+  "wpi_added_in_africa": 143,
+  "total_records": 3145,
+  "duplicate_ids": [],
+  "matches": [
+    {
+      "shipportx_id": "EG-port-said",
+      "wpi_port_number": 45140,
+      "wpi_name": "Bur Sa'id",
+      "method": "unlocode",
+      "distance_km": 3.3
+    },
+    {
+      "shipportx_id": "EG-damietta",
+      "wpi_port_number": 45151,
+      "wpi_name": "Damietta",
+      "method": "unlocode",
+      "distance_km": 2.0
+    },
+    {
+      "shipportx_id": "EG-alexandria",
+      "wpi_port_number": 45165,
+      "wpi_name": "Al Iskandariyh (Alexandria)",
+      "method": "unlocode",
+      "distance_km": 4.5
+    },
+    {
+      "shipportx_id": "LY-benghazi",
+      "wpi_port_number": 45280,
+      "wpi_name": "Banghazi",
+      "method": "unlocode",
+      "distance_km": 2.4
+    },
+    {
+      "shipportx_id": "LY-ras-lanuf",
+      "wpi_port_number": 45296,
+      "wpi_name": "Ras   Lanuf",
+      "method": "unlocode",
+      "distance_km": 4.1
+    },
+    {
+      "shipportx_id": "LY-misrata",
+      "wpi_port_number": 45320,
+      "wpi_name": "Misratah",
+      "method": "proximity_and_name",
+      "distance_km": 2.4
+    },
+    {
+      "shipportx_id": "LY-tripoli",
+      "wpi_port_number": 45330,
+      "wpi_name": "Mina Tarabulus (Tripoli)",
+      "method": "unlocode",
+      "distance_km": 2.4
+    },
+    {
+      "shipportx_id": "TN-gabes",
+      "wpi_port_number": 45375,
+      "wpi_name": "Gabes",
+      "method": "unlocode",
+      "distance_km": 1.5
+    },
+    {
+      "shipportx_id": "TN-sfax",
+      "wpi_port_number": 45390,
+      "wpi_name": "Mersa Sfax",
+      "method": "unlocode",
+      "distance_km": 1.8
+    },
+    {
+      "shipportx_id": "TN-sousse",
+      "wpi_port_number": 45410,
+      "wpi_name": "Sousse",
+      "method": "proximity_and_name",
+      "distance_km": 2.4
+    },
+    {
+      "shipportx_id": "TN-la-goulette",
+      "wpi_port_number": 45420,
+      "wpi_name": "La Goulette",
+      "method": "proximity_and_name",
+      "distance_km": 2.1
+    },
+    {
+      "shipportx_id": "TN-la-goulette",
+      "wpi_port_number": 45430,
+      "wpi_name": "Tunis",
+      "method": "proximity_and_name",
+      "distance_km": 5.3
+    },
+    {
+      "shipportx_id": "TN-rades",
+      "wpi_port_number": 45432,
+      "wpi_name": "Rades",
+      "method": "unlocode",
+      "distance_km": 2.4
+    },
+    {
+      "shipportx_id": "TN-bizerte",
+      "wpi_port_number": 45440,
+      "wpi_name": "Banzart",
+      "method": "unlocode",
+      "distance_km": 4.7
+    },
+    {
+      "shipportx_id": "DZ-annaba",
+      "wpi_port_number": 45490,
+      "wpi_name": "Annaba",
+      "method": "unlocode",
+      "distance_km": 2.4
+    },
+    {
+      "shipportx_id": "DZ-skikda",
+      "wpi_port_number": 45510,
+      "wpi_name": "Skikda",
+      "method": "unlocode",
+      "distance_km": 0.0
+    },
+    {
+      "shipportx_id": "DZ-skikda",
+      "wpi_port_number": 45515,
+      "wpi_name": "Port Methanier",
+      "method": "proximity",
+      "distance_km": 2.9
+    },
+    {
+      "shipportx_id": "DZ-djen-djen",
+      "wpi_port_number": 45525,
+      "wpi_name": "Djen-Djen",
+      "method": "unlocode",
+      "distance_km": 0.0
+    },
+    {
+      "shipportx_id": "DZ-bejaia",
+      "wpi_port_number": 45550,
+      "wpi_name": "Bejaia",
+      "method": "unlocode",
+      "distance_km": 1.9
+    },
+    {
+      "shipportx_id": "DZ-algiers",
+      "wpi_port_number": 45570,
+      "wpi_name": "Alger",
+      "method": "unlocode",
+      "distance_km": 0.0
+    },
+    {
+      "shipportx_id": "DZ-mostaganem",
+      "wpi_port_number": 45620,
+      "wpi_name": "Mostaganem",
+      "method": "unlocode",
+      "distance_km": 0.0
+    },
+    {
+      "shipportx_id": "DZ-arzew",
+      "wpi_port_number": 45630,
+      "wpi_name": "Arzew",
+      "method": "unlocode",
+      "distance_km": 3.1
+    },
+    {
+      "shipportx_id": "DZ-arzew",
+      "wpi_port_number": 45635,
+      "wpi_name": "Arzew El Djedid",
+      "method": "proximity_and_name",
+      "distance_km": 3.0
+    },
+    {
+      "shipportx_id": "DZ-oran",
+      "wpi_port_number": 45640,
+      "wpi_name": "Oran",
+      "method": "unlocode",
+      "distance_km": 3.6
+    },
+    {
+      "shipportx_id": "MA-tanger-med",
+      "wpi_port_number": 45753,
+      "wpi_name": "Tangier-Mediterranean",
+      "method": "unlocode",
+      "distance_km": 2.1
+    },
+    {
+      "shipportx_id": "MA-casablanca",
+      "wpi_port_number": 45793,
+      "wpi_name": "Casablanca",
+      "method": "unlocode",
+      "distance_km": 0.0
+    },
+    {
+      "shipportx_id": "MA-safi",
+      "wpi_port_number": 45797,
+      "wpi_name": "Safi",
+      "method": "unlocode",
+      "distance_km": 0.9
+    },
+    {
+      "shipportx_id": "MA-agadir",
+      "wpi_port_number": 45802,
+      "wpi_name": "Agadir",
+      "method": "unlocode",
+      "distance_km": 1.3
+    },
+    {
+      "shipportx_id": "MA-laayoune",
+      "wpi_port_number": 45809,
+      "wpi_name": "Laayoune",
+      "method": "unlocode",
+      "distance_km": 1.5
+    },
+    {
+      "shipportx_id": "MR-nouadhibou",
+      "wpi_port_number": 45812,
+      "wpi_name": "Nouadhibou",
+      "method": "unlocode",
+      "distance_km": 1.9
+    },
+    {
+      "shipportx_id": "MR-nouakchott",
+      "wpi_port_number": 45814,
+      "wpi_name": "Nouakchott",
+      "method": "unlocode",
+      "distance_km": 4.9
+    },
+    {
+      "shipportx_id": "SN-dakar",
+      "wpi_port_number": 45820,
+      "wpi_name": "Dakar",
+      "method": "unlocode",
+      "distance_km": 0.7
+    },
+    {
+      "shipportx_id": "GM-banjul",
+      "wpi_port_number": 45825,
+      "wpi_name": "Banjul",
+      "method": "unlocode",
+      "distance_km": 1.9
+    },
+    {
+      "shipportx_id": "GW-bissau",
+      "wpi_port_number": 45838,
+      "wpi_name": "Bissau",
+      "method": "unlocode",
+      "distance_km": 5.3
+    },
+    {
+      "shipportx_id": "GN-kamsar",
+      "wpi_port_number": 45850,
+      "wpi_name": "Kamsar",
+      "method": "proximity_and_name",
+      "distance_km": 1.2
+    },
+    {
+      "shipportx_id": "GN-conakry",
+      "wpi_port_number": 45855,
+      "wpi_name": "Conakry",
+      "method": "unlocode",
+      "distance_km": 0.3
+    },
+    {
+      "shipportx_id": "SL-freetown",
+      "wpi_port_number": 45862,
+      "wpi_name": "Freetown",
+      "method": "unlocode",
+      "distance_km": 1.4
+    },
+    {
+      "shipportx_id": "CV-mindelo",
+      "wpi_port_number": 45880,
+      "wpi_name": "Porto Grande",
+      "method": "proximity_and_name",
+      "distance_km": 0.5
+    },
+    {
+      "shipportx_id": "CV-praia",
+      "wpi_port_number": 45910,
+      "wpi_name": "Porto Da Praia",
+      "method": "unlocode",
+      "distance_km": 1.1
+    },
+    {
+      "shipportx_id": "LR-freeport-of-monrovia",
+      "wpi_port_number": 45940,
+      "wpi_name": "Monrovia",
+      "method": "unlocode",
+      "distance_km": 3.5
+    },
+    {
+      "shipportx_id": "LR-buchanan",
+      "wpi_port_number": 45950,
+      "wpi_name": "Buchanan",
+      "method": "unlocode",
+      "distance_km": 2.0
+    },
+    {
+      "shipportx_id": "LR-harper",
+      "wpi_port_number": 45955,
+      "wpi_name": "Cape Palmas",
+      "method": "proximity",
+      "distance_km": 0.8
+    },
+    {
+      "shipportx_id": "GH-takoradi",
+      "wpi_port_number": 46045,
+      "wpi_name": "Sekondi",
+      "method": "proximity_and_name",
+      "distance_km": 6.7
+    },
+    {
+      "shipportx_id": "NG-lagos-port-complex-apapa",
+      "wpi_port_number": 46130,
+      "wpi_name": "Lagos",
+      "method": "proximity_and_name",
+      "distance_km": 6.6
+    },
+    {
+      "shipportx_id": "GQ-bata",
+      "wpi_port_number": 46305,
+      "wpi_name": "Bata",
+      "method": "unlocode",
+      "distance_km": 6.3
+    },
+    {
+      "shipportx_id": "GQ-malabo",
+      "wpi_port_number": 46320,
+      "wpi_name": "Malabo",
+      "method": "unlocode",
+      "distance_km": 1.1
+    },
+    {
+      "shipportx_id": "GQ-luba",
+      "wpi_port_number": 46330,
+      "wpi_name": "Luba",
+      "method": "unlocode",
+      "distance_km": 5.9
+    },
+    {
+      "shipportx_id": "ST-port-of-santo-antonio",
+      "wpi_port_number": 46375,
+      "wpi_name": "Santo Antonio",
+      "method": "proximity_and_name",
+      "distance_km": 1.9
+    },
+    {
+      "shipportx_id": "ST-port-of-sao-tome",
+      "wpi_port_number": 46380,
+      "wpi_name": "Sao Tome",
+      "method": "proximity_and_name",
+      "distance_km": 1.5
+    },
+    {
+      "shipportx_id": "GA-owendo",
+      "wpi_port_number": 46435,
+      "wpi_name": "Port Owendo",
+      "method": "unlocode",
+      "distance_km": 1.3
+    },
+    {
+      "shipportx_id": "GA-port-gentil",
+      "wpi_port_number": 46440,
+      "wpi_name": "Port Gentil",
+      "method": "unlocode",
+      "distance_km": 3.7
+    },
+    {
+      "shipportx_id": "GA-gamba-offshore-terminal",
+      "wpi_port_number": 46453,
+      "wpi_name": "Gamba Oil Terminal",
+      "method": "unlocode",
+      "distance_km": 5.8
+    },
+    {
+      "shipportx_id": "CG-pointe-noire",
+      "wpi_port_number": 46470,
+      "wpi_name": "Pointe Noire",
+      "method": "unlocode",
+      "distance_km": 0.3
+    },
+    {
+      "shipportx_id": "CD-banana",
+      "wpi_port_number": 46510,
+      "wpi_name": "Banana",
+      "method": "unlocode",
+      "distance_km": null
+    },
+    {
+      "shipportx_id": "CD-boma",
+      "wpi_port_number": 46520,
+      "wpi_name": "Boma",
+      "method": "unlocode",
+      "distance_km": null
+    },
+    {
+      "shipportx_id": "CD-matadi",
+      "wpi_port_number": 46530,
+      "wpi_name": "Matadi",
+      "method": "unlocode",
+      "distance_km": null
+    },
+    {
+      "shipportx_id": "AO-luanda",
+      "wpi_port_number": 46560,
+      "wpi_name": "Luanda",
+      "method": "unlocode",
+      "distance_km": 1.9
+    },
+    {
+      "shipportx_id": "AO-lobito",
+      "wpi_port_number": 46590,
+      "wpi_name": "Lobito",
+      "method": "unlocode",
+      "distance_km": 2.5
+    },
+    {
+      "shipportx_id": "AO-namibe",
+      "wpi_port_number": 46610,
+      "wpi_name": "Namibe",
+      "method": "unlocode",
+      "distance_km": 4.0
+    },
+    {
+      "shipportx_id": "NA-walvis-bay",
+      "wpi_port_number": 46640,
+      "wpi_name": "Walvis Bay",
+      "method": "unlocode",
+      "distance_km": 1.1
+    },
+    {
+      "shipportx_id": "NA-luderitz",
+      "wpi_port_number": 46650,
+      "wpi_name": "Luderitz Bay",
+      "method": "unlocode",
+      "distance_km": 1.5
+    },
+    {
+      "shipportx_id": "ZA-saldanha-bay",
+      "wpi_port_number": 46750,
+      "wpi_name": "Saldanha Bay",
+      "method": "unlocode",
+      "distance_km": 1.9
+    },
+    {
+      "shipportx_id": "ZA-cape-town",
+      "wpi_port_number": 46770,
+      "wpi_name": "Cape Town",
+      "method": "unlocode",
+      "distance_km": 2.4
+    },
+    {
+      "shipportx_id": "ZA-mossel-bay",
+      "wpi_port_number": 46800,
+      "wpi_name": "Mossel Bay",
+      "method": "proximity_and_name",
+      "distance_km": 1.5
+    },
+    {
+      "shipportx_id": "ZA-gqeberha",
+      "wpi_port_number": 46820,
+      "wpi_name": "Port Elizabeth",
+      "method": "unlocode",
+      "distance_km": 0.9
+    },
+    {
+      "shipportx_id": "ZA-east-london",
+      "wpi_port_number": 46830,
+      "wpi_name": "East London",
+      "method": "unlocode",
+      "distance_km": 2.4
+    },
+    {
+      "shipportx_id": "ZA-durban",
+      "wpi_port_number": 46850,
+      "wpi_name": "Durban",
+      "method": "unlocode",
+      "distance_km": 4.1
+    },
+    {
+      "shipportx_id": "ZA-richards-bay",
+      "wpi_port_number": 46855,
+      "wpi_name": "Richards Bay",
+      "method": "unlocode",
+      "distance_km": 4.6
+    },
+    {
+      "shipportx_id": "MZ-maputo",
+      "wpi_port_number": 46870,
+      "wpi_name": "Maputo",
+      "method": "unlocode",
+      "distance_km": 2.1
+    },
+    {
+      "shipportx_id": "MZ-beira",
+      "wpi_port_number": 46890,
+      "wpi_name": "Beira",
+      "method": "unlocode",
+      "distance_km": 2.4
+    },
+    {
+      "shipportx_id": "MZ-quelimane",
+      "wpi_port_number": 46910,
+      "wpi_name": "Quelimane",
+      "method": "unlocode",
+      "distance_km": 0.8
+    },
+    {
+      "shipportx_id": "MZ-nacala",
+      "wpi_port_number": 46935,
+      "wpi_name": "Nacala",
+      "method": "unlocode",
+      "distance_km": 1.8
+    },
+    {
+      "shipportx_id": "MZ-pemba",
+      "wpi_port_number": 46940,
+      "wpi_name": "Pemba",
+      "method": "unlocode",
+      "distance_km": 3.7
+    },
+    {
+      "shipportx_id": "TZ-mtwara",
+      "wpi_port_number": 46975,
+      "wpi_name": "Mtwara",
+      "method": "unlocode",
+      "distance_km": 0.3
+    },
+    {
+      "shipportx_id": "TZ-kilwa-kivinje-port",
+      "wpi_port_number": 47000,
+      "wpi_name": "Kilwa Kivinje",
+      "method": "unlocode",
+      "distance_km": 0.5
+    },
+    {
+      "shipportx_id": "TZ-dar-es-salaam",
+      "wpi_port_number": 47010,
+      "wpi_name": "Dar Es Salaam",
+      "method": "unlocode",
+      "distance_km": 1.1
+    },
+    {
+      "shipportx_id": "TZ-tanga",
+      "wpi_port_number": 47030,
+      "wpi_name": "Tanga",
+      "method": "unlocode",
+      "distance_km": 3.7
+    },
+    {
+      "shipportx_id": "TZ-zanzibar-port",
+      "wpi_port_number": 47050,
+      "wpi_name": "Zanzibar",
+      "method": "unlocode",
+      "distance_km": 5.0
+    },
+    {
+      "shipportx_id": "KE-mombasa",
+      "wpi_port_number": 47100,
+      "wpi_name": "Mombasa",
+      "method": "unlocode",
+      "distance_km": 4.1
+    },
+    {
+      "shipportx_id": "KE-lamu",
+      "wpi_port_number": 47110,
+      "wpi_name": "Lamu",
+      "method": "unlocode",
+      "distance_km": 13.0
+    },
+    {
+      "shipportx_id": "SO-mogadishu",
+      "wpi_port_number": 47160,
+      "wpi_name": "Muqdisho",
+      "method": "unlocode",
+      "distance_km": 4.1
+    },
+    {
+      "shipportx_id": "SC-port-victoria",
+      "wpi_port_number": 47220,
+      "wpi_name": "Victoria",
+      "method": "unlocode",
+      "distance_km": 1.9
+    },
+    {
+      "shipportx_id": "KM-moroni",
+      "wpi_port_number": 47300,
+      "wpi_name": "Moroni",
+      "method": "unlocode",
+      "distance_km": 0.9
+    },
+    {
+      "shipportx_id": "MG-mahajanga",
+      "wpi_port_number": 47400,
+      "wpi_name": "Mahajanga",
+      "method": "unlocode",
+      "distance_km": 0.0
+    },
+    {
+      "shipportx_id": "MG-toliara",
+      "wpi_port_number": 47460,
+      "wpi_name": "Toliara",
+      "method": "unlocode",
+      "distance_km": 0.1
+    },
+    {
+      "shipportx_id": "MG-toamasina",
+      "wpi_port_number": 47540,
+      "wpi_name": "Toamasina",
+      "method": "unlocode",
+      "distance_km": 1.6
+    },
+    {
+      "shipportx_id": "MG-antsiranana",
+      "wpi_port_number": 47630,
+      "wpi_name": "Antsiranana",
+      "method": "unlocode",
+      "distance_km": 0.1
+    },
+    {
+      "shipportx_id": "SO-berbera",
+      "wpi_port_number": 47820,
+      "wpi_name": "Berbera",
+      "method": "unlocode",
+      "distance_km": 2.5
+    },
+    {
+      "shipportx_id": "EG-port-of-suez",
+      "wpi_port_number": 48040,
+      "wpi_name": "As Suways",
+      "method": "proximity_and_name",
+      "distance_km": 1.9
+    }
+  ]
+}

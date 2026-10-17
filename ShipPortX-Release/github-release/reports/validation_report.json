@@ -1,0 +1,51 @@
+{
+  "unlocode_explicitly_unknown": [
+    "BJ-port-of-cotonou",
+    "CI-autonomous-port-of-abidjan",
+    "CI-port-autonome-de-san-pedro",
+    "ZA-mossel-bay"
+  ],
+  "verified_without_sources": [
+    "DJ-doraleh-oil-terminal",
+    "DJ-goubet-port",
+    "DJ-tadjourah-port",
+    "GH-axim-fishing-harbour",
+    "GH-debre-port",
+    "GH-dixcove-fishing-harbour",
+    "GH-ekumfi-otuam-fishing-harbour",
+    "GH-elmina-fishing-harbour",
+    "GH-gomoa-fete-fishing-harbour",
+    "GH-james-town-fishing-harbour",
+    "GH-keta-fishing-harbour",
+    "GH-moree-fishing-harbour",
+    "GH-mpakadan-port",
+    "GH-mumford-fishing-harbour",
+    "GH-senya-breku-fishing-harbour",
+    "GH-teshie-fishing-harbour",
+    "GH-winneba-fishing-harbour",
+    "MU-trou-fanfaron-fishing-port",
+    "SN-bargny",
+    "SN-joal-fadiouth",
+    "SN-kaolack",
+    "SN-kayar",
+    "SN-mbour",
+    "SN-port-of-ndayane",
+    "SN-rufisque",
+    "SN-saint-louis",
+    "SN-ziguinchor",
+    "TZ-musoma"
+  ],
+  "unlocode_narrative_or_conflicting": [
+    [
+      "MA-dakhla",
+      "Reported inconsistently as both MAVIL and EHVIC"
+    ]
+  ],
+  "unlocode_country_mismatch": [
+    [
+      "TN-sousse",
+      "TBSUS",
+      "TN"
+    ]
+  ]
+}

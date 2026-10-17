@@ -1,0 +1,13 @@
+{
+  "dataset": "ShipPortX",
+  "version": "1.0.0",
+  "release_prepared": "2026-10-14",
+  "license": {
+    "status": "chosen",
+    "spdx": "CC-BY-4.0",
+    "name": "Creative Commons Attribution 4.0 International",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "note": "Free to share and adapt, including commercially, with attribution to ShipPortX."
+  },
+  "description": "An open, structured, source-cited dataset of ports and water-transport facilities across Africa: seaports, river and lake ports, fishing harbours, oil, gas and mining export terminals, and ferry terminals."
+}

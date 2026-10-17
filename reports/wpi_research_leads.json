@@ -1,0 +1,1924 @@
+{
+  "purpose": "Research leads only. Verify through the normal research process before editing the ShipPortX-Research repo.",
+  "matched_records_with_gaps": [
+    {
+      "shipportx_id": "EG-port-said",
+      "record_path": "research/ShipPortX/ports/egypt/port-said.md",
+      "wpi_port_number": 45140,
+      "wpi_name": "Bur Sa'id",
+      "wpi_values": {
+        "channel_depth_m": 14.0
+      }
+    },
+    {
+      "shipportx_id": "EG-damietta",
+      "record_path": "research/ShipPortX/ports/egypt/damietta.md",
+      "wpi_port_number": 45151,
+      "wpi_name": "Damietta",
+      "wpi_values": {
+        "channel_depth_m": 14.0
+      }
+    },
+    {
+      "shipportx_id": "EG-alexandria",
+      "record_path": "research/ShipPortX/ports/egypt/alexandria.md",
+      "wpi_port_number": 45165,
+      "wpi_name": "Al Iskandariyh (Alexandria)",
+      "wpi_values": {
+        "channel_depth_m": 14.0
+      }
+    },
+    {
+      "shipportx_id": "LY-benghazi",
+      "record_path": "research/ShipPortX/ports/libya/benghazi.md",
+      "wpi_port_number": 45280,
+      "wpi_name": "Banghazi",
+      "wpi_values": {
+        "channel_depth_m": 13.0
+      }
+    },
+    {
+      "shipportx_id": "LY-ras-lanuf",
+      "record_path": "research/ShipPortX/ports/libya/ras-lanuf.md",
+      "wpi_port_number": 45296,
+      "wpi_name": "Ras   Lanuf",
+      "wpi_values": {
+        "channel_depth_m": 16.0
+      }
+    },
+    {
+      "shipportx_id": "LY-misrata",
+      "record_path": "research/ShipPortX/ports/libya/misrata.md",
+      "wpi_port_number": 45320,
+      "wpi_name": "Misratah",
+      "wpi_values": {
+        "channel_depth_m": 13.0
+      }
+    },
+    {
+      "shipportx_id": "LY-tripoli",
+      "record_path": "research/ShipPortX/ports/libya/tripoli.md",
+      "wpi_port_number": 45330,
+      "wpi_name": "Mina Tarabulus (Tripoli)",
+      "wpi_values": {
+        "channel_depth_m": 11.0
+      }
+    },
+    {
+      "shipportx_id": "TN-gabes",
+      "record_path": "research/ShipPortX/ports/tunisia/gabes.md",
+      "wpi_port_number": 45375,
+      "wpi_name": "Gabes",
+      "wpi_values": {
+        "channel_depth_m": 13.0
+      }
+    },
+    {
+      "shipportx_id": "TN-sfax",
+      "record_path": "research/ShipPortX/ports/tunisia/sfax.md",
+      "wpi_port_number": 45390,
+      "wpi_name": "Mersa Sfax",
+      "wpi_values": {
+        "channel_depth_m": 11.0
+      }
+    },
+    {
+      "shipportx_id": "TN-sousse",
+      "record_path": "research/ShipPortX/ports/tunisia/sousse.md",
+      "wpi_port_number": 45410,
+      "wpi_name": "Sousse",
+      "wpi_values": {
+        "channel_depth_m": 11.0
+      }
+    },
+    {
+      "shipportx_id": "TN-la-goulette",
+      "record_path": "research/ShipPortX/ports/tunisia/la-goulette.md",
+      "wpi_port_number": 45420,
+      "wpi_name": "La Goulette",
+      "wpi_values": {
+        "channel_depth_m": 11.0,
+        "unlocode": "TNLGN"
+      }
+    },
+    {
+      "shipportx_id": "TN-la-goulette",
+      "record_path": "research/ShipPortX/ports/tunisia/la-goulette.md",
+      "wpi_port_number": 45430,
+      "wpi_name": "Tunis",
+      "wpi_values": {
+        "channel_depth_m": 6.0,
+        "unlocode": "TNTUN"
+      }
+    },
+    {
+      "shipportx_id": "TN-rades",
+      "record_path": "research/ShipPortX/ports/tunisia/rades.md",
+      "wpi_port_number": 45432,
+      "wpi_name": "Rades",
+      "wpi_values": {
+        "channel_depth_m": 9.0
+      }
+    },
+    {
+      "shipportx_id": "TN-bizerte",
+      "record_path": "research/ShipPortX/ports/tunisia/bizerte.md",
+      "wpi_port_number": 45440,
+      "wpi_name": "Banzart",
+      "wpi_values": {
+        "channel_depth_m": 11.0
+      }
+    },
+    {
+      "shipportx_id": "DZ-annaba",
+      "record_path": "research/ShipPortX/ports/algeria/annaba.md",
+      "wpi_port_number": 45490,
+      "wpi_name": "Annaba",
+      "wpi_values": {
+        "channel_depth_m": 13.0
+      }
+    },
+    {
+      "shipportx_id": "DZ-skikda",
+      "record_path": "research/ShipPortX/ports/algeria/skikda.md",
+      "wpi_port_number": 45510,
+      "wpi_name": "Skikda",
+      "wpi_values": {
+        "channel_depth_m": 16.0
+      }
+    },
+    {
+      "shipportx_id": "DZ-skikda",
+      "record_path": "research/ShipPortX/ports/algeria/skikda.md",
+      "wpi_port_number": 45515,
+      "wpi_name": "Port Methanier",
+      "wpi_values": {
+        "channel_depth_m": 17.0
+      }
+    },
+    {
+      "shipportx_id": "DZ-bejaia",
+      "record_path": "research/ShipPortX/ports/algeria/bejaia.md",
+      "wpi_port_number": 45550,
+      "wpi_name": "Bejaia",
+      "wpi_values": {
+        "channel_depth_m": 14.0
+      }
+    },
+    {
+      "shipportx_id": "DZ-algiers",
+      "record_path": "research/ShipPortX/ports/algeria/algiers.md",
+      "wpi_port_number": 45570,
+      "wpi_name": "Alger",
+      "wpi_values": {
+        "channel_depth_m": 19.0
+      }
+    },
+    {
+      "shipportx_id": "DZ-mostaganem",
+      "record_path": "research/ShipPortX/ports/algeria/mostaganem.md",
+      "wpi_port_number": 45620,
+      "wpi_name": "Mostaganem",
+      "wpi_values": {
+        "channel_depth_m": 11.0
+      }
+    },
+    {
+      "shipportx_id": "DZ-arzew",
+      "record_path": "research/ShipPortX/ports/algeria/arzew.md",
+      "wpi_port_number": 45630,
+      "wpi_name": "Arzew",
+      "wpi_values": {
+        "channel_depth_m": 9.0
+      }
+    },
+    {
+      "shipportx_id": "DZ-arzew",
+      "record_path": "research/ShipPortX/ports/algeria/arzew.md",
+      "wpi_port_number": 45635,
+      "wpi_name": "Arzew El Djedid",
+      "wpi_values": {
+        "channel_depth_m": 8.0
+      }
+    },
+    {
+      "shipportx_id": "DZ-oran",
+      "record_path": "research/ShipPortX/ports/algeria/oran.md",
+      "wpi_port_number": 45640,
+      "wpi_name": "Oran",
+      "wpi_values": {
+        "channel_depth_m": 23.0
+      }
+    },
+    {
+      "shipportx_id": "MA-casablanca",
+      "record_path": "research/ShipPortX/ports/morocco/casablanca.md",
+      "wpi_port_number": 45793,
+      "wpi_name": "Casablanca",
+      "wpi_values": {
+        "channel_depth_m": 13.0
+      }
+    },
+    {
+      "shipportx_id": "MA-safi",
+      "record_path": "research/ShipPortX/ports/morocco/safi.md",
+      "wpi_port_number": 45797,
+      "wpi_name": "Safi",
+      "wpi_values": {
+        "channel_depth_m": 8.0
+      }
+    },
+    {
+      "shipportx_id": "MA-agadir",
+      "record_path": "research/ShipPortX/ports/morocco/agadir.md",
+      "wpi_port_number": 45802,
+      "wpi_name": "Agadir",
+      "wpi_values": {
+        "channel_depth_m": 8.0
+      }
+    },
+    {
+      "shipportx_id": "MR-nouadhibou",
+      "record_path": "research/ShipPortX/ports/mauritania/nouadhibou.md",
+      "wpi_port_number": 45812,
+      "wpi_name": "Nouadhibou",
+      "wpi_values": {
+        "channel_depth_m": 8.0
+      }
+    },
+    {
+      "shipportx_id": "MR-nouakchott",
+      "record_path": "research/ShipPortX/ports/mauritania/nouakchott.md",
+      "wpi_port_number": 45814,
+      "wpi_name": "Nouakchott",
+      "wpi_values": {
+        "channel_depth_m": 11.0
+      }
+    },
+    {
+      "shipportx_id": "SN-dakar",
+      "record_path": "research/ShipPortX/ports/senegal/dakar.md",
+      "wpi_port_number": 45820,
+      "wpi_name": "Dakar",
+      "wpi_values": {
+        "channel_depth_m": 11.0
+      }
+    },
+    {
+      "shipportx_id": "GM-banjul",
+      "record_path": "research/ShipPortX/ports/gambia/banjul.md",
+      "wpi_port_number": 45825,
+      "wpi_name": "Banjul",
+      "wpi_values": {
+        "channel_depth_m": 8.0
+      }
+    },
+    {
+      "shipportx_id": "GW-bissau",
+      "record_path": "research/ShipPortX/ports/guinea-bissau/bissau.md",
+      "wpi_port_number": 45838,
+      "wpi_name": "Bissau",
+      "wpi_values": {
+        "channel_depth_m": 11.0
+      }
+    },
+    {
+      "shipportx_id": "GN-kamsar",
+      "record_path": "research/ShipPortX/ports/guinea/kamsar.md",
+      "wpi_port_number": 45850,
+      "wpi_name": "Kamsar",
+      "wpi_values": {
+        "channel_depth_m": 6.0
+      }
+    },
+    {
+      "shipportx_id": "GN-conakry",
+      "record_path": "research/ShipPortX/ports/guinea/conakry.md",
+      "wpi_port_number": 45855,
+      "wpi_name": "Conakry",
+      "wpi_values": {
+        "channel_depth_m": 9.0
+      }
+    },
+    {
+      "shipportx_id": "SL-freetown",
+      "record_path": "research/ShipPortX/ports/sierra-leone/freetown.md",
+      "wpi_port_number": 45862,
+      "wpi_name": "Freetown",
+      "wpi_values": {
+        "channel_depth_m": 8.0
+      }
+    },
+    {
+      "shipportx_id": "CV-praia",
+      "record_path": "research/ShipPortX/ports/cabo-verde/praia.md",
+      "wpi_port_number": 45910,
+      "wpi_name": "Porto Da Praia",
+      "wpi_values": {
+        "channel_depth_m": 6.0
+      }
+    },
+    {
+      "shipportx_id": "LR-freeport-of-monrovia",
+      "record_path": "research/ShipPortX/ports/liberia/freeport-of-monrovia.md",
+      "wpi_port_number": 45940,
+      "wpi_name": "Monrovia",
+      "wpi_values": {
+        "channel_depth_m": 8.0
+      }
+    },
+    {
+      "shipportx_id": "LR-buchanan",
+      "record_path": "research/ShipPortX/ports/liberia/buchanan.md",
+      "wpi_port_number": 45950,
+      "wpi_name": "Buchanan",
+      "wpi_values": {
+        "channel_depth_m": 13.0
+      }
+    },
+    {
+      "shipportx_id": "LR-harper",
+      "record_path": "research/ShipPortX/ports/liberia/harper.md",
+      "wpi_port_number": 45955,
+      "wpi_name": "Cape Palmas",
+      "wpi_values": {
+        "channel_depth_m": 23.0
+      }
+    },
+    {
+      "shipportx_id": "GH-takoradi",
+      "record_path": "research/ShipPortX/ports/ghana/takoradi.md",
+      "wpi_port_number": 46045,
+      "wpi_name": "Sekondi",
+      "wpi_values": {
+        "channel_depth_m": 9.0
+      }
+    },
+    {
+      "shipportx_id": "NG-lagos-port-complex-apapa",
+      "record_path": "research/ShipPortX/ports/nigeria/lagos-port-complex-apapa.md",
+      "wpi_port_number": 46130,
+      "wpi_name": "Lagos",
+      "wpi_values": {
+        "channel_depth_m": 14.0,
+        "unlocode": "NGLOS"
+      }
+    },
+    {
+      "shipportx_id": "GQ-bata",
+      "record_path": "research/ShipPortX/ports/equatorial-guinea/bata.md",
+      "wpi_port_number": 46305,
+      "wpi_name": "Bata",
+      "wpi_values": {
+        "channel_depth_m": 11.0
+      }
+    },
+    {
+      "shipportx_id": "GQ-malabo",
+      "record_path": "research/ShipPortX/ports/equatorial-guinea/malabo.md",
+      "wpi_port_number": 46320,
+      "wpi_name": "Malabo",
+      "wpi_values": {
+        "max_draft_m": 8.0,
+        "channel_depth_m": 17.0
+      }
+    },
+    {
+      "shipportx_id": "GQ-luba",
+      "record_path": "research/ShipPortX/ports/equatorial-guinea/luba.md",
+      "wpi_port_number": 46330,
+      "wpi_name": "Luba",
+      "wpi_values": {
+        "channel_depth_m": 19.0
+      }
+    },
+    {
+      "shipportx_id": "ST-port-of-santo-antonio",
+      "record_path": "research/ShipPortX/ports/sao-tome-and-principe/port-of-santo-antonio.md",
+      "wpi_port_number": 46375,
+      "wpi_name": "Santo Antonio",
+      "wpi_values": {
+        "channel_depth_m": 3.0,
+        "unlocode": "STSAA"
+      }
+    },
+    {
+      "shipportx_id": "ST-port-of-sao-tome",
+      "record_path": "research/ShipPortX/ports/sao-tome-and-principe/port-of-sao-tome.md",
+      "wpi_port_number": 46380,
+      "wpi_name": "Sao Tome",
+      "wpi_values": {
+        "channel_depth_m": 5.0,
+        "unlocode": "STTMS"
+      }
+    },
+    {
+      "shipportx_id": "GA-owendo",
+      "record_path": "research/ShipPortX/ports/gabon/owendo.md",
+      "wpi_port_number": 46435,
+      "wpi_name": "Port Owendo",
+      "wpi_values": {
+        "channel_depth_m": 11.0
+      }
+    },
+    {
+      "shipportx_id": "GA-port-gentil",
+      "record_path": "research/ShipPortX/ports/gabon/port-gentil.md",
+      "wpi_port_number": 46440,
+      "wpi_name": "Port Gentil",
+      "wpi_values": {
+        "channel_depth_m": 14.0
+      }
+    },
+    {
+      "shipportx_id": "GA-gamba-offshore-terminal",
+      "record_path": "research/ShipPortX/ports/gabon/gamba-offshore-terminal.md",
+      "wpi_port_number": 46453,
+      "wpi_name": "Gamba Oil Terminal",
+      "wpi_values": {
+        "channel_depth_m": 23.0
+      }
+    },
+    {
+      "shipportx_id": "CG-pointe-noire",
+      "record_path": "research/ShipPortX/ports/republic-of-congo/pointe-noire.md",
+      "wpi_port_number": 46470,
+      "wpi_name": "Pointe Noire",
+      "wpi_values": {
+        "max_draft_m": 16.0,
+        "channel_depth_m": 12.0
+      }
+    },
+    {
+      "shipportx_id": "CD-banana",
+      "record_path": "research/ShipPortX/ports/dr-congo/banana.md",
+      "wpi_port_number": 46510,
+      "wpi_name": "Banana",
+      "wpi_values": {
+        "coordinates": {
+          "latitude": "5°59'00\"S",
+          "longitude": "12°23'00\"E"
+        },
+        "channel_depth_m": 5.0
+      }
+    },
+    {
+      "shipportx_id": "CD-boma",
+      "record_path": "research/ShipPortX/ports/dr-congo/boma.md",
+      "wpi_port_number": 46520,
+      "wpi_name": "Boma",
+      "wpi_values": {
+        "coordinates": {
+          "latitude": "5°51'00\"S",
+          "longitude": "13°03'00\"E"
+        },
+        "channel_depth_m": 8.0
+      }
+    },
+    {
+      "shipportx_id": "CD-matadi",
+      "record_path": "research/ShipPortX/ports/dr-congo/matadi.md",
+      "wpi_port_number": 46530,
+      "wpi_name": "Matadi",
+      "wpi_values": {
+        "coordinates": {
+          "latitude": "5°49'00\"S",
+          "longitude": "13°27'00\"E"
+        },
+        "channel_depth_m": 8.0
+      }
+    },
+    {
+      "shipportx_id": "AO-luanda",
+      "record_path": "research/ShipPortX/ports/angola/luanda.md",
+      "wpi_port_number": 46560,
+      "wpi_name": "Luanda",
+      "wpi_values": {
+        "max_draft_m": 10.0,
+        "channel_depth_m": 13.0
+      }
+    },
+    {
+      "shipportx_id": "AO-lobito",
+      "record_path": "research/ShipPortX/ports/angola/lobito.md",
+      "wpi_port_number": 46590,
+      "wpi_name": "Lobito",
+      "wpi_values": {
+        "channel_depth_m": 14.0
+      }
+    },
+    {
+      "shipportx_id": "AO-namibe",
+      "record_path": "research/ShipPortX/ports/angola/namibe.md",
+      "wpi_port_number": 46610,
+      "wpi_name": "Namibe",
+      "wpi_values": {
+        "channel_depth_m": 17.0
+      }
+    },
+    {
+      "shipportx_id": "NA-walvis-bay",
+      "record_path": "research/ShipPortX/ports/namibia/walvis-bay.md",
+      "wpi_port_number": 46640,
+      "wpi_name": "Walvis Bay",
+      "wpi_values": {
+        "channel_depth_m": 14.0
+      }
+    },
+    {
+      "shipportx_id": "NA-luderitz",
+      "record_path": "research/ShipPortX/ports/namibia/luderitz.md",
+      "wpi_port_number": 46650,
+      "wpi_name": "Luderitz Bay",
+      "wpi_values": {
+        "channel_depth_m": 8.0
+      }
+    },
+    {
+      "shipportx_id": "ZA-saldanha-bay",
+      "record_path": "research/ShipPortX/ports/south-africa/saldanha-bay.md",
+      "wpi_port_number": 46750,
+      "wpi_name": "Saldanha Bay",
+      "wpi_values": {
+        "channel_depth_m": 23.0
+      }
+    },
+    {
+      "shipportx_id": "ZA-cape-town",
+      "record_path": "research/ShipPortX/ports/south-africa/cape-town.md",
+      "wpi_port_number": 46770,
+      "wpi_name": "Cape Town",
+      "wpi_values": {
+        "channel_depth_m": 16.0
+      }
+    },
+    {
+      "shipportx_id": "ZA-mossel-bay",
+      "record_path": "research/ShipPortX/ports/south-africa/mossel-bay.md",
+      "wpi_port_number": 46800,
+      "wpi_name": "Mossel Bay",
+      "wpi_values": {
+        "max_draft_m": 7.0,
+        "channel_depth_m": 8.0,
+        "unlocode": "ZAMZY"
+      }
+    },
+    {
+      "shipportx_id": "ZA-gqeberha",
+      "record_path": "research/ShipPortX/ports/south-africa/gqeberha.md",
+      "wpi_port_number": 46820,
+      "wpi_name": "Port Elizabeth",
+      "wpi_values": {
+        "max_draft_m": 13.0,
+        "channel_depth_m": 11.0
+      }
+    },
+    {
+      "shipportx_id": "ZA-east-london",
+      "record_path": "research/ShipPortX/ports/south-africa/east-london.md",
+      "wpi_port_number": 46830,
+      "wpi_name": "East London",
+      "wpi_values": {
+        "channel_depth_m": 11.0
+      }
+    },
+    {
+      "shipportx_id": "ZA-durban",
+      "record_path": "research/ShipPortX/ports/south-africa/durban.md",
+      "wpi_port_number": 46850,
+      "wpi_name": "Durban",
+      "wpi_values": {
+        "max_draft_m": 15.0,
+        "channel_depth_m": 11.0
+      }
+    },
+    {
+      "shipportx_id": "ZA-richards-bay",
+      "record_path": "research/ShipPortX/ports/south-africa/richards-bay.md",
+      "wpi_port_number": 46855,
+      "wpi_name": "Richards Bay",
+      "wpi_values": {
+        "max_draft_m": 18.0,
+        "channel_depth_m": 19.0
+      }
+    },
+    {
+      "shipportx_id": "MZ-maputo",
+      "record_path": "research/ShipPortX/ports/mozambique/maputo.md",
+      "wpi_port_number": 46870,
+      "wpi_name": "Maputo",
+      "wpi_values": {
+        "channel_depth_m": 13.0
+      }
+    },
+    {
+      "shipportx_id": "MZ-beira",
+      "record_path": "research/ShipPortX/ports/mozambique/beira.md",
+      "wpi_port_number": 46890,
+      "wpi_name": "Beira",
+      "wpi_values": {
+        "channel_depth_m": 5.0
+      }
+    },
+    {
+      "shipportx_id": "MZ-nacala",
+      "record_path": "research/ShipPortX/ports/mozambique/nacala.md",
+      "wpi_port_number": 46935,
+      "wpi_name": "Nacala",
+      "wpi_values": {
+        "channel_depth_m": 23.0
+      }
+    },
+    {
+      "shipportx_id": "MZ-pemba",
+      "record_path": "research/ShipPortX/ports/mozambique/pemba.md",
+      "wpi_port_number": 46940,
+      "wpi_name": "Pemba",
+      "wpi_values": {
+        "channel_depth_m": 23.0
+      }
+    },
+    {
+      "shipportx_id": "TZ-mtwara",
+      "record_path": "research/ShipPortX/ports/tanzania/mtwara.md",
+      "wpi_port_number": 46975,
+      "wpi_name": "Mtwara",
+      "wpi_values": {
+        "channel_depth_m": 20.0
+      }
+    },
+    {
+      "shipportx_id": "TZ-kilwa-kivinje-port",
+      "record_path": "research/ShipPortX/ports/tanzania/kilwa-kivinje-port.md",
+      "wpi_port_number": 47000,
+      "wpi_name": "Kilwa Kivinje",
+      "wpi_values": {
+        "channel_depth_m": 9.0
+      }
+    },
+    {
+      "shipportx_id": "TZ-dar-es-salaam",
+      "record_path": "research/ShipPortX/ports/tanzania/dar-es-salaam.md",
+      "wpi_port_number": 47010,
+      "wpi_name": "Dar Es Salaam",
+      "wpi_values": {
+        "channel_depth_m": 9.0
+      }
+    },
+    {
+      "shipportx_id": "TZ-tanga",
+      "record_path": "research/ShipPortX/ports/tanzania/tanga.md",
+      "wpi_port_number": 47030,
+      "wpi_name": "Tanga",
+      "wpi_values": {
+        "channel_depth_m": 17.0
+      }
+    },
+    {
+      "shipportx_id": "TZ-zanzibar-port",
+      "record_path": "research/ShipPortX/ports/tanzania/zanzibar-port.md",
+      "wpi_port_number": 47050,
+      "wpi_name": "Zanzibar",
+      "wpi_values": {
+        "channel_depth_m": 11.0
+      }
+    },
+    {
+      "shipportx_id": "KE-mombasa",
+      "record_path": "research/ShipPortX/ports/kenya/mombasa.md",
+      "wpi_port_number": 47100,
+      "wpi_name": "Mombasa",
+      "wpi_values": {
+        "channel_depth_m": 14.0
+      }
+    },
+    {
+      "shipportx_id": "SO-mogadishu",
+      "record_path": "research/ShipPortX/ports/somalia/mogadishu.md",
+      "wpi_port_number": 47160,
+      "wpi_name": "Muqdisho",
+      "wpi_values": {
+        "channel_depth_m": 11.0
+      }
+    },
+    {
+      "shipportx_id": "SC-port-victoria",
+      "record_path": "research/ShipPortX/ports/seychelles/port-victoria.md",
+      "wpi_port_number": 47220,
+      "wpi_name": "Victoria",
+      "wpi_values": {
+        "channel_depth_m": 2.0
+      }
+    },
+    {
+      "shipportx_id": "KM-moroni",
+      "record_path": "research/ShipPortX/ports/comoros/moroni.md",
+      "wpi_port_number": 47300,
+      "wpi_name": "Moroni",
+      "wpi_values": {
+        "channel_depth_m": 23.0
+      }
+    },
+    {
+      "shipportx_id": "MG-mahajanga",
+      "record_path": "research/ShipPortX/ports/madagascar/mahajanga.md",
+      "wpi_port_number": 47400,
+      "wpi_name": "Mahajanga",
+      "wpi_values": {
+        "channel_depth_m": 9.0
+      }
+    },
+    {
+      "shipportx_id": "MG-toliara",
+      "record_path": "research/ShipPortX/ports/madagascar/toliara.md",
+      "wpi_port_number": 47460,
+      "wpi_name": "Toliara",
+      "wpi_values": {
+        "channel_depth_m": 11.0
+      }
+    },
+    {
+      "shipportx_id": "MG-toamasina",
+      "record_path": "research/ShipPortX/ports/madagascar/toamasina.md",
+      "wpi_port_number": 47540,
+      "wpi_name": "Toamasina",
+      "wpi_values": {
+        "channel_depth_m": 9.0
+      }
+    },
+    {
+      "shipportx_id": "MG-antsiranana",
+      "record_path": "research/ShipPortX/ports/madagascar/antsiranana.md",
+      "wpi_port_number": 47630,
+      "wpi_name": "Antsiranana",
+      "wpi_values": {
+        "channel_depth_m": 14.0
+      }
+    },
+    {
+      "shipportx_id": "SO-berbera",
+      "record_path": "research/ShipPortX/ports/somalia/berbera.md",
+      "wpi_port_number": 47820,
+      "wpi_name": "Berbera",
+      "wpi_values": {
+        "channel_depth_m": 11.0
+      }
+    },
+    {
+      "shipportx_id": "EG-port-of-suez",
+      "record_path": "research/ShipPortX/ports/egypt/port-of-suez.md",
+      "wpi_port_number": 48040,
+      "wpi_name": "As Suways",
+      "wpi_values": {
+        "channel_depth_m": 19.0,
+        "unlocode": "EGSUZ"
+      }
+    }
+  ],
+  "african_wpi_ports_not_in_shipportx": [
+    {
+      "wpi_port_number": 45163,
+      "name": "El Maadiya",
+      "country_code": "EG",
+      "unlocode": null,
+      "latitude": 31.266667,
+      "longitude": 30.15
+    },
+    {
+      "wpi_port_number": 45172,
+      "name": "Sidi Kerir (Kurayr)",
+      "country_code": "EG",
+      "unlocode": "EGSKT",
+      "latitude": 31.1,
+      "longitude": 29.616667
+    },
+    {
+      "wpi_port_number": 45175,
+      "name": "El Hamra Oil Terminal",
+      "country_code": "EG",
+      "unlocode": "EGMAH",
+      "latitude": 30.983333,
+      "longitude": 28.866667
+    },
+    {
+      "wpi_port_number": 45180,
+      "name": "Mersa Matruh",
+      "country_code": "EG",
+      "unlocode": "EGMMU",
+      "latitude": 31.35,
+      "longitude": 27.233333
+    },
+    {
+      "wpi_port_number": 45220,
+      "name": "Mersa Tobruq",
+      "country_code": "LY",
+      "unlocode": "LYTOB",
+      "latitude": 32.083333,
+      "longitude": 23.983333
+    },
+    {
+      "wpi_port_number": 45240,
+      "name": "Darnah",
+      "country_code": "LY",
+      "unlocode": "LYDRX",
+      "latitude": 32.766667,
+      "longitude": 22.65
+    },
+    {
+      "wpi_port_number": 45290,
+      "name": "Ez Zueitina",
+      "country_code": "LY",
+      "unlocode": "LYZUE",
+      "latitude": 30.85,
+      "longitude": 20.05
+    },
+    {
+      "wpi_port_number": 45295,
+      "name": "Al Burayqah",
+      "country_code": "LY",
+      "unlocode": "LYMBR",
+      "latitude": 30.416667,
+      "longitude": 19.6
+    },
+    {
+      "wpi_port_number": 45297,
+      "name": "As Sidr",
+      "country_code": "LY",
+      "unlocode": "LYESI",
+      "latitude": 30.633333,
+      "longitude": 18.366667
+    },
+    {
+      "wpi_port_number": 45323,
+      "name": "Khoms",
+      "country_code": "LY",
+      "unlocode": "LYKHM",
+      "latitude": 32.666667,
+      "longitude": 14.25
+    },
+    {
+      "wpi_port_number": 45335,
+      "name": "Az Zawiya",
+      "country_code": "LY",
+      "unlocode": "LYZAW",
+      "latitude": 32.8,
+      "longitude": 12.716667
+    },
+    {
+      "wpi_port_number": 45337,
+      "name": "Bouri Oil Field",
+      "country_code": "LY",
+      "unlocode": "LYBOU",
+      "latitude": 33.9,
+      "longitude": 12.65
+    },
+    {
+      "wpi_port_number": 45340,
+      "name": "Marsa Sabratah",
+      "country_code": "LY",
+      "unlocode": null,
+      "latitude": 32.816667,
+      "longitude": 12.5
+    },
+    {
+      "wpi_port_number": 45350,
+      "name": "Abu Khammash",
+      "country_code": "LY",
+      "unlocode": "LYABK",
+      "latitude": 33.066667,
+      "longitude": 11.816667
+    },
+    {
+      "wpi_port_number": 45365,
+      "name": "Zarzis",
+      "country_code": "TN",
+      "unlocode": "TNZRZ",
+      "latitude": 33.5,
+      "longitude": 11.116667
+    },
+    {
+      "wpi_port_number": 45368,
+      "name": "Didon Terminal",
+      "country_code": "TN",
+      "unlocode": "TNDID",
+      "latitude": 33.783333,
+      "longitude": 11.9
+    },
+    {
+      "wpi_port_number": 45370,
+      "name": "Houmt Souk",
+      "country_code": "TN",
+      "unlocode": "TNDJE",
+      "latitude": 33.883333,
+      "longitude": 10.85
+    },
+    {
+      "wpi_port_number": 45377,
+      "name": "Ashtart Oil Terminal",
+      "country_code": "TN",
+      "unlocode": "TNASH",
+      "latitude": 34.283333,
+      "longitude": 11.383333
+    },
+    {
+      "wpi_port_number": 45380,
+      "name": "Skhira",
+      "country_code": "TN",
+      "unlocode": "TNLSK",
+      "latitude": 34.283333,
+      "longitude": 10.1
+    },
+    {
+      "wpi_port_number": 45400,
+      "name": "Mahdia",
+      "country_code": "TN",
+      "unlocode": "TNMAD",
+      "latitude": 35.5,
+      "longitude": 11.066667
+    },
+    {
+      "wpi_port_number": 45435,
+      "name": "Tazerka Oil Terminal",
+      "country_code": "TN",
+      "unlocode": "TNTAT",
+      "latitude": 36.6,
+      "longitude": 11.683333
+    },
+    {
+      "wpi_port_number": 45444,
+      "name": "Menzel Bourguiba",
+      "country_code": "TN",
+      "unlocode": "TNMBA",
+      "latitude": 37.15,
+      "longitude": 9.8
+    },
+    {
+      "wpi_port_number": 45460,
+      "name": "Tabarka",
+      "country_code": "TN",
+      "unlocode": "TNTBJ",
+      "latitude": 36.966667,
+      "longitude": 8.766667
+    },
+    {
+      "wpi_port_number": 45520,
+      "name": "Collo",
+      "country_code": "DZ",
+      "unlocode": "DZCOL",
+      "latitude": 37.0,
+      "longitude": 6.583333
+    },
+    {
+      "wpi_port_number": 45530,
+      "name": "Jijel",
+      "country_code": "DZ",
+      "unlocode": "DZDJI",
+      "latitude": 36.833333,
+      "longitude": 5.783333
+    },
+    {
+      "wpi_port_number": 45560,
+      "name": "Dellys",
+      "country_code": "DZ",
+      "unlocode": "DZDEL",
+      "latitude": 36.916667,
+      "longitude": 3.916667
+    },
+    {
+      "wpi_port_number": 45610,
+      "name": "Tenes",
+      "country_code": "DZ",
+      "unlocode": "DZTEN",
+      "latitude": 36.533333,
+      "longitude": 1.316667
+    },
+    {
+      "wpi_port_number": 45650,
+      "name": "Mers El Kebir",
+      "country_code": "DZ",
+      "unlocode": null,
+      "latitude": 35.733333,
+      "longitude": -0.7
+    },
+    {
+      "wpi_port_number": 45660,
+      "name": "Beni Saf",
+      "country_code": "DZ",
+      "unlocode": "DZBSF",
+      "latitude": 35.3,
+      "longitude": -1.383333
+    },
+    {
+      "wpi_port_number": 45670,
+      "name": "Ghazaouet",
+      "country_code": "DZ",
+      "unlocode": "DZGHZ",
+      "latitude": 35.1,
+      "longitude": -1.866667
+    },
+    {
+      "wpi_port_number": 45720,
+      "name": "Port D Al Hoceima",
+      "country_code": "MA",
+      "unlocode": "MAAHU",
+      "latitude": 35.25,
+      "longitude": -3.916667
+    },
+    {
+      "wpi_port_number": 45755,
+      "name": "Tanger",
+      "country_code": "MA",
+      "unlocode": "MATNG",
+      "latitude": 35.783333,
+      "longitude": -5.816667
+    },
+    {
+      "wpi_port_number": 45762,
+      "name": "Port Nador",
+      "country_code": "MA",
+      "unlocode": "MANDR",
+      "latitude": 35.283333,
+      "longitude": -2.933333
+    },
+    {
+      "wpi_port_number": 45785,
+      "name": "Kenitra",
+      "country_code": "MA",
+      "unlocode": "MANNA",
+      "latitude": 34.3,
+      "longitude": -6.6
+    },
+    {
+      "wpi_port_number": 45790,
+      "name": "Mohammedia",
+      "country_code": "MA",
+      "unlocode": "MAMOH",
+      "latitude": 33.716667,
+      "longitude": -7.4
+    },
+    {
+      "wpi_port_number": 45795,
+      "name": "El Jadida",
+      "country_code": "MA",
+      "unlocode": "MAELJ",
+      "latitude": 33.25,
+      "longitude": -8.5
+    },
+    {
+      "wpi_port_number": 45796,
+      "name": "El Jorf Lasfar",
+      "country_code": "MA",
+      "unlocode": "MAJFL",
+      "latitude": 33.116667,
+      "longitude": -8.616667
+    },
+    {
+      "wpi_port_number": 45800,
+      "name": "Essaouira",
+      "country_code": "MA",
+      "unlocode": "MAESS",
+      "latitude": 31.5,
+      "longitude": -9.783333
+    },
+    {
+      "wpi_port_number": 45808,
+      "name": "Ad Dakhla",
+      "country_code": "EH",
+      "unlocode": "EHVIC",
+      "latitude": 23.7,
+      "longitude": -15.916667
+    },
+    {
+      "wpi_port_number": 45818,
+      "name": "St Louis",
+      "country_code": "SN",
+      "unlocode": "SNXLS",
+      "latitude": 16.016667,
+      "longitude": -16.516667
+    },
+    {
+      "wpi_port_number": 45819,
+      "name": "M Bao Oil Terminal",
+      "country_code": "SN",
+      "unlocode": "SNMBA",
+      "latitude": 14.716667,
+      "longitude": -17.4
+    },
+    {
+      "wpi_port_number": 45821,
+      "name": "Rufisque",
+      "country_code": "SN",
+      "unlocode": "SNRQ2",
+      "latitude": 14.7,
+      "longitude": -17.283333
+    },
+    {
+      "wpi_port_number": 45822,
+      "name": "Karabane",
+      "country_code": "SN",
+      "unlocode": null,
+      "latitude": 12.566667,
+      "longitude": -16.666667
+    },
+    {
+      "wpi_port_number": 45823,
+      "name": "Lyndiane",
+      "country_code": "SN",
+      "unlocode": "SNLYN",
+      "latitude": 14.166667,
+      "longitude": -16.166667
+    },
+    {
+      "wpi_port_number": 45835,
+      "name": "Rio Cacheu",
+      "country_code": "GW",
+      "unlocode": "GWCAC",
+      "latitude": 12.283333,
+      "longitude": -16.233333
+    },
+    {
+      "wpi_port_number": 45845,
+      "name": "Victoria",
+      "country_code": "GN",
+      "unlocode": null,
+      "latitude": 10.816667,
+      "longitude": -14.566667
+    },
+    {
+      "wpi_port_number": 45857,
+      "name": "Benti",
+      "country_code": "GN",
+      "unlocode": "GNBTY",
+      "latitude": 9.166667,
+      "longitude": -13.2
+    },
+    {
+      "wpi_port_number": 45865,
+      "name": "Pepel",
+      "country_code": "SL",
+      "unlocode": "SLPEP",
+      "latitude": 8.583333,
+      "longitude": -13.05
+    },
+    {
+      "wpi_port_number": 45867,
+      "name": "Bonthe",
+      "country_code": "SL",
+      "unlocode": "SLBTE",
+      "latitude": 7.533333,
+      "longitude": -12.5
+    },
+    {
+      "wpi_port_number": 45952,
+      "name": "Greenville",
+      "country_code": "LR",
+      "unlocode": "LRGRE",
+      "latitude": 4.983333,
+      "longitude": -9.05
+    },
+    {
+      "wpi_port_number": 46063,
+      "name": "Saltpond",
+      "country_code": "GH",
+      "unlocode": "GHSPD",
+      "latitude": 5.2,
+      "longitude": -1.05
+    },
+    {
+      "wpi_port_number": 46161,
+      "name": "Forcados Oil Terminal",
+      "country_code": "NG",
+      "unlocode": "NGFOR",
+      "latitude": 5.166667,
+      "longitude": 5.183333
+    },
+    {
+      "wpi_port_number": 46237,
+      "name": "Agbami Oil Terminal",
+      "country_code": "NG",
+      "unlocode": "NGABM",
+      "latitude": 3.466667,
+      "longitude": 5.566667
+    },
+    {
+      "wpi_port_number": 46239,
+      "name": "Egina Oil Terminal",
+      "country_code": "NG",
+      "unlocode": null,
+      "latitude": 3.066667,
+      "longitude": 6.7
+    },
+    {
+      "wpi_port_number": 46241,
+      "name": "Akpo Oil Terminal",
+      "country_code": "NG",
+      "unlocode": "NGAKP",
+      "latitude": 3.133333,
+      "longitude": 6.816667
+    },
+    {
+      "wpi_port_number": 46286,
+      "name": "Moudi Marine Terminal",
+      "country_code": "CM",
+      "unlocode": "CMMOU",
+      "latitude": 4.116667,
+      "longitude": 8.483333
+    },
+    {
+      "wpi_port_number": 46306,
+      "name": "Punta Europa Terminal",
+      "country_code": "GQ",
+      "unlocode": "GQPET",
+      "latitude": 3.783333,
+      "longitude": 8.716667
+    },
+    {
+      "wpi_port_number": 46335,
+      "name": "Ceiba Terminal",
+      "country_code": "GQ",
+      "unlocode": null,
+      "latitude": 1.416667,
+      "longitude": 9.233333
+    },
+    {
+      "wpi_port_number": 46340,
+      "name": "Cogo",
+      "country_code": "GQ",
+      "unlocode": "GCCOG",
+      "latitude": 1.083333,
+      "longitude": 9.7
+    },
+    {
+      "wpi_port_number": 46430,
+      "name": "Libreville",
+      "country_code": "GA",
+      "unlocode": "GALBV",
+      "latitude": 0.383333,
+      "longitude": 9.45
+    },
+    {
+      "wpi_port_number": 46445,
+      "name": "Cap Lopez",
+      "country_code": "GA",
+      "unlocode": "GACLZ",
+      "latitude": -0.633333,
+      "longitude": 8.716667
+    },
+    {
+      "wpi_port_number": 46446,
+      "name": "Oguendjo Terminal",
+      "country_code": "GA",
+      "unlocode": "GAOGU",
+      "latitude": -1.466667,
+      "longitude": 8.916667
+    },
+    {
+      "wpi_port_number": 46451,
+      "name": "Etame Terminal",
+      "country_code": "GA",
+      "unlocode": "GAETA",
+      "latitude": -3.75,
+      "longitude": 10.516667
+    },
+    {
+      "wpi_port_number": 46452,
+      "name": "Olowi Marine Terminal",
+      "country_code": "GA",
+      "unlocode": null,
+      "latitude": -3.133333,
+      "longitude": 10.216667
+    },
+    {
+      "wpi_port_number": 46454,
+      "name": "M'bya Oil Terminal",
+      "country_code": "GA",
+      "unlocode": "GAMBY",
+      "latitude": -3.883333,
+      "longitude": 10.933333
+    },
+    {
+      "wpi_port_number": 46459,
+      "name": "Dussafu Terminal",
+      "country_code": "CG",
+      "unlocode": null,
+      "latitude": -4.25,
+      "longitude": 10.816667
+    },
+    {
+      "wpi_port_number": 46460,
+      "name": "Yombo Terminal",
+      "country_code": "CG",
+      "unlocode": "CGYOM",
+      "latitude": -4.45,
+      "longitude": 11.1
+    },
+    {
+      "wpi_port_number": 46472,
+      "name": "Djeno Terminal",
+      "country_code": "CG",
+      "unlocode": "CGDJE",
+      "latitude": -4.933333,
+      "longitude": 11.9
+    },
+    {
+      "wpi_port_number": 46473,
+      "name": "N'kossa Terminal",
+      "country_code": "CG",
+      "unlocode": "CGNKO",
+      "latitude": -5.266667,
+      "longitude": 11.566667
+    },
+    {
+      "wpi_port_number": 46485,
+      "name": "Takula Terminal",
+      "country_code": "AO",
+      "unlocode": "AOTAK",
+      "latitude": -5.216667,
+      "longitude": 11.783333
+    },
+    {
+      "wpi_port_number": 46487,
+      "name": "Malongo Oil Terminal",
+      "country_code": "AO",
+      "unlocode": "AOMAL",
+      "latitude": -5.433333,
+      "longitude": 12.083333
+    },
+    {
+      "wpi_port_number": 46488,
+      "name": "Kuito Oil Field",
+      "country_code": "AO",
+      "unlocode": "AOKOT",
+      "latitude": -5.466667,
+      "longitude": 11.5
+    },
+    {
+      "wpi_port_number": 46490,
+      "name": "Cabinda",
+      "country_code": "AO",
+      "unlocode": "AOCAB",
+      "latitude": -5.533333,
+      "longitude": 12.2
+    },
+    {
+      "wpi_port_number": 46495,
+      "name": "Futila Terminal",
+      "country_code": "AO",
+      "unlocode": "AOFLT",
+      "latitude": -5.45,
+      "longitude": 12.183333
+    },
+    {
+      "wpi_port_number": 46541,
+      "name": "Kizomba A Terminal",
+      "country_code": "AO",
+      "unlocode": null,
+      "latitude": -6.316667,
+      "longitude": 11.05
+    },
+    {
+      "wpi_port_number": 46542,
+      "name": "Kizomba B Terminal",
+      "country_code": "AO",
+      "unlocode": null,
+      "latitude": -6.35,
+      "longitude": 11.15
+    },
+    {
+      "wpi_port_number": 46543,
+      "name": "Kizomba C Terminal",
+      "country_code": "AO",
+      "unlocode": null,
+      "latitude": -6.316667,
+      "longitude": 11.283333
+    },
+    {
+      "wpi_port_number": 46544,
+      "name": "Psvm Terminal",
+      "country_code": "AO",
+      "unlocode": null,
+      "latitude": -6.25,
+      "longitude": 10.733333
+    },
+    {
+      "wpi_port_number": 46545,
+      "name": "Soyo Angola Lng Terminal",
+      "country_code": "AO",
+      "unlocode": "AOSZA",
+      "latitude": -6.116667,
+      "longitude": 12.333333
+    },
+    {
+      "wpi_port_number": 46547,
+      "name": "Palanca Terminal",
+      "country_code": "AO",
+      "unlocode": "AOPAT",
+      "latitude": -6.95,
+      "longitude": 12.4
+    },
+    {
+      "wpi_port_number": 46549,
+      "name": "Girassol Terminal",
+      "country_code": "AO",
+      "unlocode": "AOGIR",
+      "latitude": -7.65,
+      "longitude": 11.683333
+    },
+    {
+      "wpi_port_number": 46550,
+      "name": "Porto Do Ambriz",
+      "country_code": "AO",
+      "unlocode": "AOAZZ",
+      "latitude": -7.833333,
+      "longitude": 13.1
+    },
+    {
+      "wpi_port_number": 46551,
+      "name": "Dalia Terminal",
+      "country_code": "AO",
+      "unlocode": "AODAL",
+      "latitude": -7.683333,
+      "longitude": 11.766667
+    },
+    {
+      "wpi_port_number": 46552,
+      "name": "Greater Plutonio Terminal",
+      "country_code": "AO",
+      "unlocode": "AOGPO",
+      "latitude": -7.833333,
+      "longitude": 12.1
+    },
+    {
+      "wpi_port_number": 46553,
+      "name": "Estrela Oil Field",
+      "country_code": "AO",
+      "unlocode": null,
+      "latitude": -6.45,
+      "longitude": 12.4
+    },
+    {
+      "wpi_port_number": 46570,
+      "name": "Porto Amboim",
+      "country_code": "AO",
+      "unlocode": "AOPBN",
+      "latitude": -10.733333,
+      "longitude": 13.75
+    },
+    {
+      "wpi_port_number": 46580,
+      "name": "Sumbe",
+      "country_code": "AO",
+      "unlocode": "AONDD",
+      "latitude": -11.2,
+      "longitude": 13.833333
+    },
+    {
+      "wpi_port_number": 46670,
+      "name": "Georgetown",
+      "country_code": "SH",
+      "unlocode": "SHASI",
+      "latitude": -7.933333,
+      "longitude": -14.416667
+    },
+    {
+      "wpi_port_number": 46690,
+      "name": "Jamestown",
+      "country_code": "SH",
+      "unlocode": "SHSHN",
+      "latitude": -15.916667,
+      "longitude": -5.716667
+    },
+    {
+      "wpi_port_number": 46691,
+      "name": "North Point",
+      "country_code": "SH",
+      "unlocode": null,
+      "latitude": -7.883333,
+      "longitude": -14.366667
+    },
+    {
+      "wpi_port_number": 46710,
+      "name": "Edinburgh Of The Seven Seas",
+      "country_code": "SH",
+      "unlocode": null,
+      "latitude": -37.05,
+      "longitude": -12.3
+    },
+    {
+      "wpi_port_number": 46780,
+      "name": "Simonstown",
+      "country_code": "ZA",
+      "unlocode": "ZASMN",
+      "latitude": -34.185,
+      "longitude": 18.436667
+    },
+    {
+      "wpi_port_number": 46880,
+      "name": "Inhambane",
+      "country_code": "MZ",
+      "unlocode": "MZINH",
+      "latitude": -23.916667,
+      "longitude": 35.4
+    },
+    {
+      "wpi_port_number": 46900,
+      "name": "Chinde",
+      "country_code": "MZ",
+      "unlocode": "MZINE",
+      "latitude": -18.566667,
+      "longitude": 36.5
+    },
+    {
+      "wpi_port_number": 46920,
+      "name": "Porto Belo",
+      "country_code": "MZ",
+      "unlocode": "MZPBE",
+      "latitude": -17.7,
+      "longitude": 37.183333
+    },
+    {
+      "wpi_port_number": 46925,
+      "name": "Pebane",
+      "country_code": "MZ",
+      "unlocode": "MZPEB",
+      "latitude": -17.266667,
+      "longitude": 38.15
+    },
+    {
+      "wpi_port_number": 46930,
+      "name": "Mocambique",
+      "country_code": "MZ",
+      "unlocode": "MZMZQ",
+      "latitude": -15.033333,
+      "longitude": 40.733333
+    },
+    {
+      "wpi_port_number": 46950,
+      "name": "Ibo",
+      "country_code": "MZ",
+      "unlocode": "MZIBO",
+      "latitude": -12.333333,
+      "longitude": 40.616667
+    },
+    {
+      "wpi_port_number": 46970,
+      "name": "Mikindani",
+      "country_code": "TZ",
+      "unlocode": "TZMIK",
+      "latitude": -10.266667,
+      "longitude": 40.133333
+    },
+    {
+      "wpi_port_number": 47005,
+      "name": "Mjimwema Terminal",
+      "country_code": "TZ",
+      "unlocode": null,
+      "latitude": -6.816667,
+      "longitude": 39.366667
+    },
+    {
+      "wpi_port_number": 47020,
+      "name": "Chake Chake",
+      "country_code": "TZ",
+      "unlocode": null,
+      "latitude": -5.25,
+      "longitude": 39.766667
+    },
+    {
+      "wpi_port_number": 47105,
+      "name": "Kilifi",
+      "country_code": "KE",
+      "unlocode": "KEKLF",
+      "latitude": -3.633333,
+      "longitude": 39.866667
+    },
+    {
+      "wpi_port_number": 47107,
+      "name": "Malindi",
+      "country_code": "KE",
+      "unlocode": "KEMYD",
+      "latitude": -3.216667,
+      "longitude": 40.133333
+    },
+    {
+      "wpi_port_number": 47130,
+      "name": "Kismaayo",
+      "country_code": "SO",
+      "unlocode": "SOKMU",
+      "latitude": -0.366667,
+      "longitude": 42.55
+    },
+    {
+      "wpi_port_number": 47140,
+      "name": "Baraawe",
+      "country_code": "SO",
+      "unlocode": null,
+      "latitude": 1.1,
+      "longitude": 44.05
+    },
+    {
+      "wpi_port_number": 47150,
+      "name": "Marka",
+      "country_code": "SO",
+      "unlocode": "SOMER",
+      "latitude": 1.716667,
+      "longitude": 44.783333
+    },
+    {
+      "wpi_port_number": 47310,
+      "name": "Fomboni",
+      "country_code": "KM",
+      "unlocode": "KMFOU",
+      "latitude": -12.266667,
+      "longitude": 43.75
+    },
+    {
+      "wpi_port_number": 47320,
+      "name": "Moutsamoudu",
+      "country_code": "KM",
+      "unlocode": "KMMUT",
+      "latitude": -12.15,
+      "longitude": 44.4
+    },
+    {
+      "wpi_port_number": 47340,
+      "name": "Dzaoudzi",
+      "country_code": "KM",
+      "unlocode": "KMDZA",
+      "latitude": -12.783333,
+      "longitude": 45.25
+    },
+    {
+      "wpi_port_number": 47360,
+      "name": "Andoany",
+      "country_code": "MG",
+      "unlocode": null,
+      "latitude": -13.4,
+      "longitude": 48.3
+    },
+    {
+      "wpi_port_number": 47420,
+      "name": "Maintirano",
+      "country_code": "MG",
+      "unlocode": "MGMXT",
+      "latitude": -18.066667,
+      "longitude": 44.016667
+    },
+    {
+      "wpi_port_number": 47430,
+      "name": "Morondava",
+      "country_code": "MG",
+      "unlocode": "MGMOQ",
+      "latitude": -20.283333,
+      "longitude": 44.3
+    },
+    {
+      "wpi_port_number": 47470,
+      "name": "Tolanaro",
+      "country_code": "MG",
+      "unlocode": "MGTLN",
+      "latitude": -25.033333,
+      "longitude": 47.0
+    },
+    {
+      "wpi_port_number": 47500,
+      "name": "Manakara",
+      "country_code": "MG",
+      "unlocode": "MGWVK",
+      "latitude": -22.116667,
+      "longitude": 48.05
+    },
+    {
+      "wpi_port_number": 47510,
+      "name": "Mananjary",
+      "country_code": "MG",
+      "unlocode": "MGMNJ",
+      "latitude": -21.25,
+      "longitude": 48.333333
+    },
+    {
+      "wpi_port_number": 47590,
+      "name": "Maroantsetra",
+      "country_code": "MG",
+      "unlocode": "MGWMN",
+      "latitude": -15.45,
+      "longitude": 49.816667
+    },
+    {
+      "wpi_port_number": 47620,
+      "name": "Iharana",
+      "country_code": "MG",
+      "unlocode": null,
+      "latitude": -13.35,
+      "longitude": 50.0
+    },
+    {
+      "wpi_port_number": 47625,
+      "name": "Antsohim Bondrona",
+      "country_code": "MG",
+      "unlocode": null,
+      "latitude": -13.083333,
+      "longitude": 48.833333
+    },
+    {
+      "wpi_port_number": 47680,
+      "name": "Saint-Denis",
+      "country_code": "RE",
+      "unlocode": "RERUN",
+      "latitude": -20.866667,
+      "longitude": 55.45
+    },
+    {
+      "wpi_port_number": 47690,
+      "name": "Port Est",
+      "country_code": "RE",
+      "unlocode": null,
+      "latitude": -20.933333,
+      "longitude": 55.316667
+    },
+    {
+      "wpi_port_number": 47695,
+      "name": "Port Ouest",
+      "country_code": "RE",
+      "unlocode": null,
+      "latitude": -20.933333,
+      "longitude": 55.283333
+    },
+    {
+      "wpi_port_number": 47700,
+      "name": "Saint-Pierre",
+      "country_code": "RE",
+      "unlocode": "REZSE",
+      "latitude": -21.35,
+      "longitude": 55.466667
+    },
+    {
+      "wpi_port_number": 47750,
+      "name": "Port Mathurin",
+      "country_code": "MU",
+      "unlocode": "MUPMA",
+      "latitude": -19.683333,
+      "longitude": 63.416667
+    },
+    {
+      "wpi_port_number": 47830,
+      "name": "Boosaaso",
+      "country_code": "SO",
+      "unlocode": "SOBSA",
+      "latitude": 11.283333,
+      "longitude": 49.183333
+    },
+    {
+      "wpi_port_number": 47942,
+      "name": "Al Khair Oil Terminal",
+      "country_code": "SD",
+      "unlocode": null,
+      "latitude": 19.583333,
+      "longitude": 37.25
+    },
+    {
+      "wpi_port_number": 47944,
+      "name": "Beshayer Oil Terminal",
+      "country_code": "SD",
+      "unlocode": null,
+      "latitude": 19.4,
+      "longitude": 37.316667
+    },
+    {
+      "wpi_port_number": 47960,
+      "name": "Nuwaybi'",
+      "country_code": "EG",
+      "unlocode": "EGNUW",
+      "latitude": 28.966667,
+      "longitude": 34.65
+    },
+    {
+      "wpi_port_number": 47970,
+      "name": "Al Qusayr",
+      "country_code": "EG",
+      "unlocode": "EGAQU",
+      "latitude": 26.1,
+      "longitude": 34.283333
+    },
+    {
+      "wpi_port_number": 47974,
+      "name": "Hamrawein",
+      "country_code": "EG",
+      "unlocode": "EGHAM",
+      "latitude": 26.25,
+      "longitude": 34.2
+    },
+    {
+      "wpi_port_number": 47982,
+      "name": "At Tur",
+      "country_code": "EG",
+      "unlocode": "EGTOR",
+      "latitude": 28.233333,
+      "longitude": 33.616667
+    },
+    {
+      "wpi_port_number": 47985,
+      "name": "Zeit Bay Terminal",
+      "country_code": "EG",
+      "unlocode": "EGZTB",
+      "latitude": 27.833333,
+      "longitude": 33.6
+    },
+    {
+      "wpi_port_number": 47988,
+      "name": "Sharm El Sheikh",
+      "country_code": "EG",
+      "unlocode": "EGSSH",
+      "latitude": 27.85,
+      "longitude": 34.283333
+    },
+    {
+      "wpi_port_number": 47989,
+      "name": "Zeit Bay Lpg Terminal",
+      "country_code": "EG",
+      "unlocode": null,
+      "latitude": 27.8,
+      "longitude": 33.566667
+    },
+    {
+      "wpi_port_number": 47990,
+      "name": "El Ghardaqa",
+      "country_code": "EG",
+      "unlocode": "EGHRG",
+      "latitude": 27.216667,
+      "longitude": 33.85
+    },
+    {
+      "wpi_port_number": 48015,
+      "name": "Ras Shukhier",
+      "country_code": "EG",
+      "unlocode": "EGRSH",
+      "latitude": 28.133333,
+      "longitude": 33.283333
+    },
+    {
+      "wpi_port_number": 48020,
+      "name": "Ras Gharib",
+      "country_code": "EG",
+      "unlocode": "EGRAG",
+      "latitude": 28.35,
+      "longitude": 33.1
+    },
+    {
+      "wpi_port_number": 48025,
+      "name": "Ras Badran Oil Terminal",
+      "country_code": "EG",
+      "unlocode": "EGRAB",
+      "latitude": 28.95,
+      "longitude": 33.166667
+    },
+    {
+      "wpi_port_number": 48035,
+      "name": "Sokhna Port Gas Tanker Terminal",
+      "country_code": "EG",
+      "unlocode": "EGSOK",
+      "latitude": 29.683333,
+      "longitude": 32.366667
+    },
+    {
+      "wpi_port_number": 48050,
+      "name": "El Ismailiya",
+      "country_code": "EG",
+      "unlocode": "EGISM",
+      "latitude": 30.583333,
+      "longitude": 32.283333
+    },
+    {
+      "wpi_port_number": 48053,
+      "name": "Ras Sudr",
+      "country_code": "EG",
+      "unlocode": "EGRSU",
+      "latitude": 29.583333,
+      "longitude": 32.7
+    },
+    {
+      "wpi_port_number": 48057,
+      "name": "Zafarana Terminal",
+      "country_code": "EG",
+      "unlocode": null,
+      "latitude": 29.166667,
+      "longitude": 32.683333
+    },
+    {
+      "wpi_port_number": 48060,
+      "name": "Ras Abu Zanimah",
+      "country_code": "EG",
+      "unlocode": "EGAZA",
+      "latitude": 29.033333,
+      "longitude": 33.116667
+    },
+    {
+      "wpi_port_number": 48065,
+      "name": "Wadi Feiran",
+      "country_code": "EG",
+      "unlocode": "EGWAF",
+      "latitude": 28.75,
+      "longitude": 33.2
+    }
+  ]
+}

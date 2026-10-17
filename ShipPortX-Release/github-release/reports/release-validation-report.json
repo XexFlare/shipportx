@@ -1,0 +1,755 @@
+{
+  "dataset": "ShipPortX",
+  "version": "1.0.0",
+  "validated_at": "2026-10-17T16:05:21.097Z",
+  "scope": "Automated structural, cross-format and plausibility checks. Not an independent verification of the underlying research.",
+  "summary": {
+    "checks": 39,
+    "passed": 39,
+    "failed": 0,
+    "warnings": 2
+  },
+  "checks": [
+    {
+      "level": "ERROR",
+      "id": "count.json_metadata",
+      "description": "JSON record_count (283) equals number of JSON records",
+      "passed": true,
+      "details": 283
+    },
+    {
+      "level": "ERROR",
+      "id": "count.jsonl",
+      "description": "JSONL line count equals record_count",
+      "passed": true,
+      "details": 283
+    },
+    {
+      "level": "ERROR",
+      "id": "count.csv",
+      "description": "CSV row count equals record_count",
+      "passed": true,
+      "details": 283
+    },
+    {
+      "level": "ERROR",
+      "id": "count.parquet",
+      "description": "Parquet row count equals record_count",
+      "passed": true,
+      "details": 283
+    },
+    {
+      "level": "ERROR",
+      "id": "meta.version",
+      "description": "JSON envelope version is 1.0.0",
+      "passed": true,
+      "details": "1.0.0"
+    },
+    {
+      "level": "ERROR",
+      "id": "count.upstream_summary",
+      "description": "Totals match the build summary (total, VERIFIED, countries)",
+      "passed": true,
+      "details": {
+        "summary": [
+          283,
+          263,
+          51
+        ],
+        "actual": [
+          283,
+          263,
+          51
+        ]
+      }
+    },
+    {
+      "level": "ERROR",
+      "id": "id.unique",
+      "description": "port_id values are unique",
+      "passed": true,
+      "details": []
+    },
+    {
+      "level": "ERROR",
+      "id": "id.format",
+      "description": "port_id matches {ISO2}-{slug}",
+      "passed": true,
+      "details": []
+    },
+    {
+      "level": "ERROR",
+      "id": "id.country_prefix",
+      "description": "port_id prefix equals country_code",
+      "passed": true,
+      "details": []
+    },
+    {
+      "level": "ERROR",
+      "id": "schema.required",
+      "description": "Required fields present: port_id, official_name, country, country_code, country_code_iso3, region_continental, port_type, research_status, record_path",
+      "passed": true,
+      "details": []
+    },
+    {
+      "level": "ERROR",
+      "id": "schema.json_keys",
+      "description": "Every JSON record has the same field set",
+      "passed": true,
+      "details": []
+    },
+    {
+      "level": "ERROR",
+      "id": "schema.csv_columns",
+      "description": "CSV columns = JSON fields (minus fields_detail) + 2 derived columns",
+      "passed": true,
+      "details": {
+        "extra": [],
+        "missing": []
+      }
+    },
+    {
+      "level": "ERROR",
+      "id": "schema.parquet_columns",
+      "description": "Parquet columns match CSV columns (same order)",
+      "passed": true,
+      "details": 65
+    },
+    {
+      "level": "ERROR",
+      "id": "schema.types",
+      "description": "latitude/longitude numeric or null; source_ids array; fields_detail object",
+      "passed": true,
+      "details": []
+    },
+    {
+      "level": "ERROR",
+      "id": "format.jsonl_equals_json",
+      "description": "JSONL records are deep-equal to JSON records",
+      "passed": true,
+      "details": []
+    },
+    {
+      "level": "ERROR",
+      "id": "format.record_order",
+      "description": "Record order is identical across JSON, JSONL, CSV and Parquet",
+      "passed": true
+    },
+    {
+      "level": "ERROR",
+      "id": "format.csv_equals_json",
+      "description": "Every CSV cell matches the JSON value (lists joined with \"; \")",
+      "passed": true,
+      "details": []
+    },
+    {
+      "level": "ERROR",
+      "id": "format.parquet_equals_json",
+      "description": "Every Parquet value matches the JSON value",
+      "passed": true,
+      "details": []
+    },
+    {
+      "level": "ERROR",
+      "id": "format.derived_csv_parquet",
+      "description": "Derived *_primary columns agree between CSV and Parquet",
+      "passed": true,
+      "details": []
+    },
+    {
+      "level": "ERROR",
+      "id": "format.port_type_primary_rule",
+      "description": "port_type_primary reproduces from port_type with the documented rule",
+      "passed": true,
+      "details": []
+    },
+    {
+      "level": "ERROR",
+      "id": "release.copies_identical",
+      "description": "Data files in every package are byte-identical to Data/ originals",
+      "passed": true,
+      "details": []
+    },
+    {
+      "level": "ERROR",
+      "id": "hf.full_parquet_equals_json",
+      "description": "huggingface-dataset/data/shipportx_full.parquet equals the JSON records, including fields_detail",
+      "passed": true,
+      "details": []
+    },
+    {
+      "level": "ERROR",
+      "id": "hf.sources_parquet_equals_csv",
+      "description": "huggingface-dataset/data/sources.parquet equals sources.csv",
+      "passed": true
+    },
+    {
+      "level": "ERROR",
+      "id": "coords.paired",
+      "description": "latitude and longitude are both present or both null",
+      "passed": true,
+      "details": []
+    },
+    {
+      "level": "ERROR",
+      "id": "coords.range",
+      "description": "Coordinates within WGS84 range",
+      "passed": true,
+      "details": []
+    },
+    {
+      "level": "ERROR",
+      "id": "country.consistent",
+      "description": "Each country_code maps to exactly one country name, ISO3 code and region",
+      "passed": true,
+      "details": []
+    },
+    {
+      "level": "ERROR",
+      "id": "country.one_to_one",
+      "description": "Country names and country codes are one-to-one",
+      "passed": true,
+      "details": {
+        "codes": 51,
+        "names": 51
+      }
+    },
+    {
+      "level": "ERROR",
+      "id": "status.research_vocab",
+      "description": "research_status uses the controlled vocabulary",
+      "passed": true,
+      "details": []
+    },
+    {
+      "level": "ERROR",
+      "id": "status.operating_primary_vocab",
+      "description": "operating_status_primary uses the controlled vocabulary",
+      "passed": true,
+      "details": []
+    },
+    {
+      "level": "ERROR",
+      "id": "status.verified_has_operating_status",
+      "description": "Every VERIFIED record has an operating_status",
+      "passed": true,
+      "details": []
+    },
+    {
+      "level": "ERROR",
+      "id": "unlocode.unique",
+      "description": "No duplicate UN/LOCODE values",
+      "passed": true,
+      "details": []
+    },
+    {
+      "level": "ERROR",
+      "id": "sources.unique",
+      "description": "sources.csv source_id values are unique",
+      "passed": true,
+      "details": []
+    },
+    {
+      "level": "ERROR",
+      "id": "sources.resolve",
+      "description": "Every source_ids entry exists in sources.csv",
+      "passed": true,
+      "details": []
+    },
+    {
+      "level": "ERROR",
+      "id": "provenance.record_path",
+      "description": "Every record_path resolves to a file in the research corpus (../ShipPortX-Research)",
+      "passed": true,
+      "details": []
+    },
+    {
+      "level": "ERROR",
+      "id": "missing.no_empty_strings",
+      "description": "JSON uses null (not empty strings) for missing values",
+      "passed": true,
+      "details": []
+    },
+    {
+      "level": "ERROR",
+      "id": "website.index_ids",
+      "description": "Website index contains exactly the dataset port_ids",
+      "passed": true
+    },
+    {
+      "level": "ERROR",
+      "id": "website.detail_files",
+      "description": "Website has a detail file for every port_id",
+      "passed": true,
+      "details": []
+    },
+    {
+      "level": "ERROR",
+      "id": "website.stats",
+      "description": "Website statistics match recomputed totals",
+      "passed": true
+    },
+    {
+      "level": "ERROR",
+      "id": "api.dataset_module",
+      "description": "API dataset module holds every record and source",
+      "passed": true
+    }
+  ],
+  "findings": [
+    {
+      "level": "WARNING",
+      "id": "coords.plausibility",
+      "description": "Published coordinates that disagree with the record's own research text (fields_detail.lat_lon_raw) or fall outside the stated country. The website withholds these from the map and the API marks them in quality_flags; the published files are unchanged.",
+      "count": 0,
+      "items": []
+    },
+    {
+      "level": "INFO",
+      "id": "coords.raw_without_value",
+      "description": "Records whose research table has a coordinate row but no published coordinates (expected when the row records a non-finding)",
+      "count": 1,
+      "items": [
+        {
+          "port_id": "DJ-doraleh-multipurpose-port",
+          "raw": "Not independently established in this research pass (Doraleh area, west of Djibouti City)"
+        }
+      ]
+    },
+    {
+      "level": "INFO",
+      "id": "coords.duplicates",
+      "description": "Distinct records sharing identical coordinates",
+      "count": 0,
+      "items": []
+    },
+    {
+      "level": "INFO",
+      "id": "coords.missing",
+      "description": "Records without coordinates (null; not placed on the map)",
+      "count": 137,
+      "items": [
+        "DZ-el-kala",
+        "AO-cabinda-oil-terminal",
+        "AO-soyo-lng-terminal",
+        "BJ-cotonou-fishing-port",
+        "BW-kazungula-ferry-crossing",
+        "CF-bangui-oil-port",
+        "DJ-doraleh-multipurpose-port",
+        "DJ-doraleh-oil-terminal",
+        "DJ-goubet-port",
+        "DJ-tadjourah-port",
+        "CD-banana",
+        "CD-basoko",
+        "CD-boma",
+        "CD-goma",
+        "CD-inongo",
+        "CD-kasenyi-port",
+        "CD-lisala",
+        "CD-matadi",
+        "ER-assab",
+        "ER-massawa",
+        "GH-axim-fishing-harbour",
+        "GH-debre-port",
+        "GH-dixcove-fishing-harbour",
+        "GH-ekumfi-otuam-fishing-harbour",
+        "GH-elmina-fishing-harbour",
+        "GH-gomoa-fete-fishing-harbour",
+        "GH-james-town-fishing-harbour",
+        "GH-keta-fishing-harbour",
+        "GH-moree-fishing-harbour",
+        "GH-mpakadan-port",
+        "GH-mumford-fishing-harbour",
+        "GH-senya-breku-fishing-harbour",
+        "GH-teshie-fishing-harbour",
+        "GH-winneba-fishing-harbour",
+        "KE-funzi",
+        "KE-kilifi",
+        "KE-kiunga",
+        "KE-malindi",
+        "KE-mtwapa",
+        "KE-shimoni",
+        "KE-vanga",
+        "LY-es-sider",
+        "LY-marsa-al-hariga",
+        "MW-chikombe-beach",
+        "MW-chilumba",
+        "MW-chizumulu-island",
+        "MW-kaporo",
+        "MW-karonga",
+        "MW-likoma-island",
+        "MW-mbenje-island",
+        "MW-nkhotakota",
+        "MW-nsanje-port",
+        "ML-mopti",
+        "MU-trou-fanfaron-fishing-port",
+        "MZ-afungi-lng-marine-terminal",
+        "MZ-angoche",
+        "MZ-caia",
+        "MZ-chinde",
+        "MZ-cobue",
+        "MZ-ilha-de-mocambique",
+        "MZ-inhambane",
+        "MZ-macuse-port",
+        "MZ-matola-lng-import-terminal",
+        "MZ-matola",
+        "MZ-maxixe",
+        "MZ-meponda",
+        "MZ-metangula",
+        "MZ-mocimboa-da-praia",
+        "MZ-moma",
+        "MZ-pebane",
+        "MZ-techobanine-port",
+        "MZ-vilanculos",
+        "MZ-xai-xai",
+        "NA-walvis-bay-dry-port-zambia",
+        "NG-baro-river-port",
+        "NG-bonny-oil-and-gas-terminal",
+        "NG-brass-oil-river-terminal",
+        "NG-burutu-port",
+        "NG-escravos-terminal",
+        "NG-forcados-terminal",
+        "NG-koko-port",
+        "NG-lokoja-river-port",
+        "NG-nigeria-lng-terminal-bonny-island",
+        "NG-onitsha-river-port",
+        "NG-qua-iboe-terminal",
+        "NG-tin-can-island-port",
+        "RW-rubavu-port",
+        "SN-bargny",
+        "SN-joal-fadiouth",
+        "SN-kaolack",
+        "SN-kayar",
+        "SN-mbour",
+        "SN-port-of-ndayane",
+        "SN-rufisque",
+        "SN-saint-louis",
+        "SN-ziguinchor",
+        "SO-bosaso",
+        "SO-kismayo",
+        "TZ-kabwe",
+        "TZ-kagunga",
+        "TZ-karema",
+        "TZ-kemondo-bay",
+        "TZ-kibirizi",
+        "TZ-kigoma",
+        "TZ-kipili",
+        "TZ-kwala-dry-port",
+        "TZ-mgao-island-port",
+        "TZ-musoma",
+        "TZ-mwanza",
+        "TZ-ujiji",
+        "TG-lome-fishing-port",
+        "UG-jinja",
+        "UG-mahathi-fuel-facility",
+        "UG-tororo-inland-port",
+        "ZM-chirundu-port",
+        "ZM-livingstone-port",
+        "ZM-port-of-nchelenge",
+        "TD-lake-chad-fishing-landing-sites-general-unresolved",
+        "TD-bol-discovered",
+        "TD-n-djam-na-river-landing-candidate-unresolved",
+        "CD-akula-discovered",
+        "CD-binga-drc-discovered",
+        "CD-bosondjo-discovered",
+        "CD-isangi-discovered",
+        "CD-yalusaka-discovered",
+        "CD-mogalo-discovered",
+        "CD-lake-mweru-ports-unresolved",
+        "LR-port-of-greenville-discovered",
+        "MW-bangula-unresolved",
+        "MZ-inhassoro-discovered",
+        "MZ-mozambique-artisanal-fishing-landing-sites-general-unresolved",
+        "NG-idah-ajaokuta-oguta-nembe-ibi-makurdi-yola-yelwa-river-ports-candidates-discovered",
+        "RW-lake-kivu-port-2-unnamed-unresolved",
+        "RW-lake-kivu-port-3-unnamed-unresolved",
+        "RW-lake-kivu-port-4-unnamed-unresolved",
+        "ZM-nakonde-dry-port-discovered",
+        "ZM-kasumbalesa-dry-port-discovered"
+      ]
+    },
+    {
+      "level": "INFO",
+      "id": "status.operating_compound",
+      "description": "operating_status values that are not a bare controlled-vocabulary value (preserved verbatim)",
+      "count": 1,
+      "items": [
+        {
+          "port_id": "MZ-ilha-de-mocambique",
+          "operating_status": "UNKNOWN (likely ACTIVE_LIMITED but not confirmed)",
+          "operating_status_primary": "UNKNOWN"
+        }
+      ]
+    },
+    {
+      "level": "WARNING",
+      "id": "status.operating_primary_overstates",
+      "description": "Records whose verbatim operating_status begins with UNKNOWN but whose derived operating_status_primary is a more specific status",
+      "count": 0,
+      "items": []
+    },
+    {
+      "level": "INFO",
+      "id": "status.port_type_outside_vocab",
+      "description": "port_type_primary values outside the research specification's port_type list",
+      "count": 6,
+      "items": [
+        {
+          "port_id": "DJ-port-of-djibouti",
+          "port_type": "seaport"
+        },
+        {
+          "port_id": "GH-takoradi",
+          "port_type": "seaport"
+        },
+        {
+          "port_id": "GH-tema",
+          "port_type": "seaport"
+        },
+        {
+          "port_id": "KE-lamu",
+          "port_type": "seaport"
+        },
+        {
+          "port_id": "KE-mombasa",
+          "port_type": "seaport"
+        },
+        {
+          "port_id": "SN-dakar",
+          "port_type": "seaport"
+        }
+      ]
+    },
+    {
+      "level": "INFO",
+      "id": "status.non_verified",
+      "description": "Records that are not VERIFIED (discovery-register entries; most fields null by construction)",
+      "count": 20,
+      "items": [
+        {
+          "port_id": "TD-lake-chad-fishing-landing-sites-general-unresolved",
+          "research_status": "UNRESOLVED"
+        },
+        {
+          "port_id": "TD-bol-discovered",
+          "research_status": "DISCOVERED"
+        },
+        {
+          "port_id": "TD-n-djam-na-river-landing-candidate-unresolved",
+          "research_status": "UNRESOLVED"
+        },
+        {
+          "port_id": "CD-akula-discovered",
+          "research_status": "DISCOVERED"
+        },
+        {
+          "port_id": "CD-binga-drc-discovered",
+          "research_status": "DISCOVERED"
+        },
+        {
+          "port_id": "CD-bosondjo-discovered",
+          "research_status": "DISCOVERED"
+        },
+        {
+          "port_id": "CD-isangi-discovered",
+          "research_status": "DISCOVERED"
+        },
+        {
+          "port_id": "CD-yalusaka-discovered",
+          "research_status": "DISCOVERED"
+        },
+        {
+          "port_id": "CD-mogalo-discovered",
+          "research_status": "DISCOVERED"
+        },
+        {
+          "port_id": "CD-lake-mweru-ports-unresolved",
+          "research_status": "UNRESOLVED"
+        },
+        {
+          "port_id": "LR-port-of-greenville-discovered",
+          "research_status": "DISCOVERED"
+        },
+        {
+          "port_id": "MW-bangula-unresolved",
+          "research_status": "UNRESOLVED"
+        },
+        {
+          "port_id": "MZ-inhassoro-discovered",
+          "research_status": "DISCOVERED"
+        },
+        {
+          "port_id": "MZ-mozambique-artisanal-fishing-landing-sites-general-unresolved",
+          "research_status": "UNRESOLVED"
+        },
+        {
+          "port_id": "NG-idah-ajaokuta-oguta-nembe-ibi-makurdi-yola-yelwa-river-ports-candidates-discovered",
+          "research_status": "DISCOVERED"
+        },
+        {
+          "port_id": "RW-lake-kivu-port-2-unnamed-unresolved",
+          "research_status": "UNRESOLVED"
+        },
+        {
+          "port_id": "RW-lake-kivu-port-3-unnamed-unresolved",
+          "research_status": "UNRESOLVED"
+        },
+        {
+          "port_id": "RW-lake-kivu-port-4-unnamed-unresolved",
+          "research_status": "UNRESOLVED"
+        },
+        {
+          "port_id": "ZM-nakonde-dry-port-discovered",
+          "research_status": "DISCOVERED"
+        },
+        {
+          "port_id": "ZM-kasumbalesa-dry-port-discovered",
+          "research_status": "DISCOVERED"
+        }
+      ]
+    },
+    {
+      "level": "INFO",
+      "id": "provenance.confidence_outside_vocab",
+      "description": "fields_detail confidence values outside CONFIRMED/STRONG/SUPPORTED/UNVERIFIED/CONFLICTING/UNKNOWN (preserved verbatim)",
+      "count": 2,
+      "items": [
+        {
+          "port_id": "SN-dakar",
+          "field": "annual_throughput_tonnage",
+          "confidence": "UNVERIFIED (dated)"
+        },
+        {
+          "port_id": "SN-dakar",
+          "field": "annual_throughput_teu",
+          "confidence": "CONFLICTING / likely stale"
+        }
+      ]
+    },
+    {
+      "level": "INFO",
+      "id": "unlocode.non_code_values",
+      "description": "unlocode values that are not 5-character codes (explicit UNKNOWN or a conflict narrative, by design)",
+      "count": 5,
+      "items": [
+        {
+          "port_id": "BJ-port-of-cotonou",
+          "unlocode": "UNKNOWN"
+        },
+        {
+          "port_id": "CI-autonomous-port-of-abidjan",
+          "unlocode": "UNKNOWN"
+        },
+        {
+          "port_id": "CI-port-autonome-de-san-pedro",
+          "unlocode": "UNKNOWN"
+        },
+        {
+          "port_id": "MA-dakhla",
+          "unlocode": "Reported inconsistently as both MAVIL and EHVIC"
+        },
+        {
+          "port_id": "ZA-mossel-bay",
+          "unlocode": "UNKNOWN"
+        }
+      ]
+    },
+    {
+      "level": "WARNING",
+      "id": "unlocode.prefix_mismatch",
+      "description": "UN/LOCODE country prefix differs from country_code",
+      "count": 1,
+      "items": [
+        {
+          "port_id": "TN-sousse",
+          "unlocode": "TBSUS"
+        }
+      ]
+    },
+    {
+      "level": "INFO",
+      "id": "sources.without_url",
+      "description": "Source-register entries without a URL",
+      "count": 0,
+      "items": []
+    },
+    {
+      "level": "WARNING",
+      "id": "sources.verified_without_ids",
+      "description": "VERIFIED records citing sources only as free text (no formal source_ids; citation text preserved in fields_detail)",
+      "count": 28,
+      "items": [
+        "DJ-doraleh-oil-terminal",
+        "DJ-goubet-port",
+        "DJ-tadjourah-port",
+        "GH-axim-fishing-harbour",
+        "GH-debre-port",
+        "GH-dixcove-fishing-harbour",
+        "GH-ekumfi-otuam-fishing-harbour",
+        "GH-elmina-fishing-harbour",
+        "GH-gomoa-fete-fishing-harbour",
+        "GH-james-town-fishing-harbour",
+        "GH-keta-fishing-harbour",
+        "GH-moree-fishing-harbour",
+        "GH-mpakadan-port",
+        "GH-mumford-fishing-harbour",
+        "GH-senya-breku-fishing-harbour",
+        "GH-teshie-fishing-harbour",
+        "GH-winneba-fishing-harbour",
+        "MU-trou-fanfaron-fishing-port",
+        "SN-bargny",
+        "SN-joal-fadiouth",
+        "SN-kaolack",
+        "SN-kayar",
+        "SN-mbour",
+        "SN-port-of-ndayane",
+        "SN-rufisque",
+        "SN-saint-louis",
+        "SN-ziguinchor",
+        "TZ-musoma"
+      ]
+    },
+    {
+      "level": "INFO",
+      "id": "missing.explicit_unknown",
+      "description": "Fields holding the explicit research value \"UNKNOWN\" (distinct from null)",
+      "count": 6,
+      "items": [
+        "BJ-port-of-cotonou.unlocode",
+        "CI-autonomous-port-of-abidjan.unlocode",
+        "CI-port-autonome-de-san-pedro.unlocode",
+        "MZ-pebane.operating_status",
+        "ZA-mossel-bay.unlocode",
+        "ZW-mlibizi-harbour.operating_status"
+      ]
+    },
+    {
+      "level": "INFO",
+      "id": "missing.never_populated",
+      "description": "Schema fields with no value in any record in v1.0.0",
+      "count": 8,
+      "items": [
+        "berth_depth_m",
+        "nearby_airport",
+        "pilotage",
+        "seasonal_limitations",
+        "tidal_restrictions",
+        "tug_availability",
+        "turning_basin",
+        "water_area"
+      ]
+    },
+    {
+      "level": "INFO",
+      "id": "docs.list_fields_are_strings",
+      "description": "Fields the original SCHEMA.md describes as JSON arrays but which are strings in the published JSON/JSONL (documentation corrected in this release)",
+      "count": 4,
+      "items": [
+        "alternate_names",
+        "secondary_activities",
+        "cargo_types",
+        "terminals"
+      ]
+    }
+  ]
+}

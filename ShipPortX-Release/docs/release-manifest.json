@@ -1,0 +1,43 @@
+{
+  "dataset": "ShipPortX",
+  "version": "1.0.0",
+  "generated": "2026-08-23",
+  "release_prepared": "2026-10-14",
+  "source_files": [
+    {
+      "path": "Data/shipportx.json",
+      "sha256": "fb39337b4868d9a75849098963f72e8a57fe3bdefaf9066a1685ddbb5b8e6346"
+    },
+    {
+      "path": "Data/shipportx.jsonl",
+      "sha256": "bc2f51278a049357055dbd969124cc4e3531e4a805edff2944b9b198e1e9c324"
+    },
+    {
+      "path": "Data/shipportx.csv",
+      "sha256": "9150e00d4e19307658b923202314f01b8d781cd01b353052267a6ec3bc329074"
+    },
+    {
+      "path": "Data/shipportx.parquet",
+      "sha256": "1ee16b25593a3ff519ee7c8c6c20f6b83e2b75d705f7eb6afc48b1a8db123c23"
+    },
+    {
+      "path": "Data/sources.csv",
+      "sha256": "a1faddacad6788ece79883b558529841ca0ae285a53bbe3d5d5911ef7962d4c7"
+    }
+  ],
+  "statistics": {
+    "total_records": 283,
+    "verified_records": 263,
+    "countries": 51,
+    "with_coordinates": 146,
+    "with_unlocode": 91,
+    "source_register_entries": 193
+  },
+  "outputs": [
+    "huggingface-dataset/data",
+    "github-release/data",
+    "website/public/downloads/v1.0.0",
+    "website/public/data/v1.0.0",
+    "api/src/data"
+  ]
+}
