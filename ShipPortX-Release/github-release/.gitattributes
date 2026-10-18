@@ -1,2 +1,7 @@
 * text=auto eol=lf
-*.parquet binary
+# Data files and checksums are published byte for byte. Never convert line endings.
+*.csv -text
+*.json -text
+*.jsonl -text
+*.parquet -text
+SHA256SUMS -text
