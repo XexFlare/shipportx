@@ -1,0 +1,44 @@
+ShipPortX
+Copyright (c) 2026 XexFlare
+
+This repository has two licenses.
+
+1. DATA, DOCUMENTATION AND REPORTS: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+   Applies to Data/, reports/, and the files in ShipPortX-Release/github-release/data,
+   ShipPortX-Release/github-release/docs, ShipPortX-Release/github-release/reports and
+   ShipPortX-Release/huggingface-dataset/data.
+
+   You are free to share and adapt the material for any purpose, including commercially, provided
+   you give appropriate credit (for example "ShipPortX v1.0.0"), link to the license and indicate
+   whether changes were made.
+
+   Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+   Summary: https://creativecommons.org/licenses/by/4.0/
+
+   Facts in the dataset are compiled from the sources listed in Data/sources.csv; those sources
+   keep their own terms.
+
+   Exception: Worldwide/ and External/wpi/ contain data derived from the NGA World Port Index, a
+   US government publication in the public domain. They are redistributed unchanged or merged;
+   credit "NGA World Port Index" when you use them.
+
+2. CODE: MIT License
+
+   Applies to scripts/ and to the source code under ShipPortX-Release/ (the website, the API, the
+   build and validation scripts and the examples).
+
+   Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+   and associated documentation files (the "Software"), to deal in the Software without
+   restriction, including without limitation the rights to use, copy, modify, merge, publish,
+   distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the
+   Software is furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in all copies or
+   substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+   BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+   NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+   DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
