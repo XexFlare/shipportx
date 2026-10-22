@@ -5,22 +5,20 @@ Everything needed to publish ShipPortX v1.0.0, the open dataset of African ports
 
 | Folder | What it is | Publish to |
 |---|---|---|
-| [`website/`](website/README.md) | React + Vite + Tailwind static site: statistics, port explorer, map, downloads, API section, documentation | Netlify |
-| [`api/`](api/README.md) | Read-only JSON API for ports worldwide (ShipPortX for Africa, NGA World Port Index elsewhere) as one Netlify Function, plus an edge function that logs usage; also the template for the other X dataset APIs | Netlify (with or without the website) |
 | [`huggingface-dataset/`](huggingface-dataset/README.md) | Hugging Face dataset repository: card, data files, three configs | Hugging Face Hub |
 | [`github-release/`](github-release/README.md) | Standalone dataset repository: data, docs, validation, examples, issue templates | GitHub |
-| [`docs/`](docs/DEPLOYMENT.md) | Deployment guide, architecture decisions, validation report, release manifest | n/a |
+| [`docs/`](docs/DEPLOYMENT.md) | Publication guide, architecture decisions, validation report, release manifest | n/a |
 | `scripts/` | Release tooling: build artefacts, Parquet twins for HF, validation | n/a |
-| `netlify.toml` | Combined deployment (website + API on one site) | n/a |
+
+The website and the API (Netlify) are built from this dataset in a separate private repo, `shipportx-web-api`.
 
 **Start here:** [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md) → [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md).
 
 ## Status
 
-- Built and verified locally: data validation (39/39 checks), API tests (38/38), API bundle check (function, rollup and edge function),
-  website production build, lint and dist checks, Hugging Face configs loaded with `datasets`,
+- Built and verified locally: data validation, Hugging Face configs loaded with `datasets`,
   GitHub validator and examples, byte-for-byte reproduction of the data from the research records.
-- **Not yet published anywhere.** Netlify, Hugging Face and GitHub publication need your accounts.
+- Hugging Face publication needs the maintainer's account. The website and API are checked in the private `shipportx-web-api` repo.
 - **License:** CC BY 4.0.
 
 ## Coordinate fix (2026-10-17, before first publication)
@@ -36,12 +34,12 @@ from the NGA World Port Index. All 9 records now agree with the World Port Index
 ## Rebuild everything
 
 ```bash
-npm install && npm --prefix website install && npm --prefix api install
+npm install
 pip install pandas pyarrow
 npm run release
 ```
 
-`npm run release` = `build:data` → `build:hf` → `validate` → `test:api` → `verify:api-bundle`
-→ `build:website` → `check:website`.
+`npm run release` = `build:worldwide` → `build:data` → `build:hf` → `validate`. Then run `npm run release` in the private
+`shipportx-web-api` repo to rebuild the website and API data from the new files.
 
 Release settings (version, dates, license) live in `release.config.json`. The dataset build script is `../scripts/build_dataset.py` (reads `../ShipPortX-Research`, or the folder in `SHIPPORTX_RESEARCH_DIR`; writes `../Data` and `../reports`).

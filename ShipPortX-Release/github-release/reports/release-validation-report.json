@@ -1,11 +1,11 @@
 {
   "dataset": "ShipPortX",
   "version": "1.0.0",
-  "validated_at": "2026-10-17T16:05:21.097Z",
+  "validated_at": "2026-10-22T04:49:39.227Z",
   "scope": "Automated structural, cross-format and plausibility checks. Not an independent verification of the underlying research.",
   "summary": {
-    "checks": 39,
-    "passed": 39,
+    "checks": 35,
+    "passed": 35,
     "failed": 0,
     "warnings": 2
   },
@@ -269,31 +269,6 @@
       "description": "JSON uses null (not empty strings) for missing values",
       "passed": true,
       "details": []
-    },
-    {
-      "level": "ERROR",
-      "id": "website.index_ids",
-      "description": "Website index contains exactly the dataset port_ids",
-      "passed": true
-    },
-    {
-      "level": "ERROR",
-      "id": "website.detail_files",
-      "description": "Website has a detail file for every port_id",
-      "passed": true,
-      "details": []
-    },
-    {
-      "level": "ERROR",
-      "id": "website.stats",
-      "description": "Website statistics match recomputed totals",
-      "passed": true
-    },
-    {
-      "level": "ERROR",
-      "id": "api.dataset_module",
-      "description": "API dataset module holds every record and source",
-      "passed": true
     }
   ],
   "findings": [

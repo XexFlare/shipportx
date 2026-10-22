@@ -64,6 +64,6 @@ Corrections and missing ports with a public source are welcome: see
 ## License and citation
 
 Dataset, documentation and reports: CC BY 4.0, cite as "ShipPortX v1.0.0" (see
-[`CITATION.cff`](ShipPortX-Release/github-release/CITATION.cff)). Scripts, API and website code:
+[`CITATION.cff`](ShipPortX-Release/github-release/CITATION.cff)). Scripts:
 MIT. Worldwide data from the NGA World Port Index is public domain; credit it. Facts remain
 attributable to their original sources, which keep their own terms.

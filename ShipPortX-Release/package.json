@@ -2,7 +2,7 @@
   "name": "shipportx-release",
   "version": "1.0.0",
   "private": true,
-  "description": "Release tooling for ShipPortX v1.0.0: builds the website, API, Hugging Face and GitHub packages from the original dataset files and validates them.",
+  "description": "Release tooling for ShipPortX v1.0.0: builds the Hugging Face and GitHub packages from the original dataset files and validates them. The website and API are built from this dataset by the private shipportx-web-api repo.",
   "type": "module",
   "engines": {
     "node": ">=20"
@@ -12,11 +12,7 @@
     "build:data": "node scripts/build-release.mjs",
     "build:hf": "python scripts/build_hf_parquet.py",
     "validate": "node scripts/validate.mjs",
-    "test:api": "npm --prefix api test",
-    "verify:api-bundle": "npm --prefix api run verify:bundle",
-    "build:website": "npm --prefix website run build",
-    "check:website": "npm --prefix website run check:dist",
-    "release": "npm run build:worldwide && npm run build:data && npm run build:hf && npm run validate && npm run test:api && npm run verify:api-bundle && npm run build:website && npm run check:website"
+    "release": "npm run build:worldwide && npm run build:data && npm run build:hf && npm run validate"
   },
   "dependencies": {
     "hyparquet": "1.31.4"

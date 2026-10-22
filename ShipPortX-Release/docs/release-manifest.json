@@ -35,9 +35,6 @@
   },
   "outputs": [
     "huggingface-dataset/data",
-    "github-release/data",
-    "website/public/downloads/v1.0.0",
-    "website/public/data/v1.0.0",
-    "api/src/data"
+    "github-release/data"
   ]
 }

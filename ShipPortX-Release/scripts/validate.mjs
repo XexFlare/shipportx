@@ -145,7 +145,7 @@ const ruleDiffs = json.filter((r) => (derivePrimaryToken(r.port_type) ?? '') !==
 check('ERROR', 'format.port_type_primary_rule', 'port_type_primary reproduces from port_type with the documented rule', ruleDiffs.length === 0, ruleDiffs);
 
 // Release copies must be byte-identical to the originals.
-const copyDirs = ['huggingface-dataset/data', 'github-release/data', `website/public/downloads/v${payload.version}`];
+const copyDirs = ['huggingface-dataset/data', 'github-release/data'];
 const copyProblems = [];
 for (const dir of copyDirs) {
   for (const f of Object.values(DATA_FILES)) {
@@ -295,29 +295,8 @@ finding('INFO', 'missing.never_populated', 'Schema fields with no value in any r
 const listTyped = ['alternate_names', 'secondary_activities', 'cargo_types', 'terminals'].filter((k) => json.some((r) => typeof r[k] === 'string'));
 finding('INFO', 'docs.list_fields_are_strings', 'Fields the original SCHEMA.md describes as JSON arrays but which are strings in the published JSON/JSONL (documentation corrected in this release)', listTyped);
 
-// ---------------------------------------------------------------------------
-// 9. Generated release artefacts
-
-const indexPath = join(RELEASE_ROOT, 'website', 'public', 'data', `v${payload.version}`, 'index.json');
-if (existsSync(indexPath)) {
-  const index = JSON.parse(readFileSync(indexPath, 'utf8'));
-  const idCol = index.fields.indexOf('port_id');
-  const indexIds = index.records.map((row) => row[idCol]);
-  check('ERROR', 'website.index_ids', 'Website index contains exactly the dataset port_ids', isDeepStrictEqual(indexIds, ids));
-  const missingDetail = ids.filter((id) => !existsSync(join(RELEASE_ROOT, 'website', 'public', 'data', `v${payload.version}`, 'ports', `${id}.json`)));
-  check('ERROR', 'website.detail_files', 'Website has a detail file for every port_id', missingDetail.length === 0, missingDetail);
-  check('ERROR', 'website.stats', 'Website statistics match recomputed totals',
-    index.stats.total_records === json.length && index.stats.countries === countryMap.size && index.stats.with_coordinates === json.filter(hasCoordinates).length && index.stats.with_unlocode === codes.length);
-} else {
-  check('ERROR', 'website.index_exists', 'Website data index exists (run npm run build:data)', false);
-}
-const apiModule = join(RELEASE_ROOT, 'api', 'src', 'data', 'dataset.generated.mjs');
-if (existsSync(apiModule)) {
-  const { default: apiData } = await import(`file://${apiModule.replaceAll('\\', '/')}`);
-  check('ERROR', 'api.dataset_module', 'API dataset module holds every record and source', apiData.records.length === json.length && apiData.sources.length === sources.rows.length);
-} else {
-  check('ERROR', 'api.dataset_module', 'API dataset module exists (run npm run build:data)', false);
-}
+// The website and API data are built and checked in the private shipportx-web-api repo
+// (scripts/validate-web-api.mjs).
 
 // ---------------------------------------------------------------------------
 // Report

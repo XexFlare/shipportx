@@ -2,8 +2,8 @@
 
 A free, public, read-only JSON API. It serves the v1.0.0 records in `data/` for Africa and, for
 the rest of the world, ports from the NGA World Port Index (public domain US government data).
-No key, no sign-up; CORS allows any origin. The API source code and deployment configuration ship
-separately from this data repository (see the ShipPortX release package, `api/`).
+No key, no sign-up; CORS allows any origin. The API source code and deployment configuration are kept
+in a separate private repository, not in this data repository.
 
 **Credit:** "Port data: ShipPortX (Africa), NGA World Port Index (worldwide)".
 

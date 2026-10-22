@@ -13,10 +13,8 @@
 ## B. Verified locally
 
 - ✅ Em dashes removed from the research corpus and the dataset rebuilt with the build script: 283 records, same IDs, no value changes other than punctuation and research-note wording (checked field by field against the backup). All package copies byte-identical to `Data/` (SHA-256).
-- ✅ `npm run validate`: 39/39 checks pass; 2 warning findings documented (was 3 before the 2026-10-17 coordinate fix) (not altered).
-- ✅ API: 38/38 tests (endpoints, usage log, Firestore client, edge function); esbuild bundles of the function, rollup and edge function import and serve all routes (2026-10-17).
-- ✅ Website: `vite build` succeeds; ESLint clean; `check:dist` passes; layout checked at 1440 px
-  and 390 px (no horizontal overflow), port detail, map and docs pages rendered in headless Edge.
+- ✅ `npm run validate`: all checks pass; 2 warning findings documented (was 3 before the 2026-10-17 coordinate fix) (not altered).
+- ✅ Website and API: checked in the private `shipportx-web-api` repo (tests, bundle check, production build, dist checks).
 - ✅ Hugging Face: `default`, `full`, `sources` configs load with `datasets` 5.1.0 (283/283/192 rows).
 - ✅ GitHub package: standalone validator passes; JS and Python examples run; the original build
   script (`../scripts/build_dataset.py`) regenerates CSV/JSON/JSONL/sources byte-for-byte from `../ShipPortX-Research`.
@@ -24,16 +22,16 @@
 
 ## C. Publish
 
-1. ☐ Website + API on Netlify (see `docs/DEPLOYMENT.md` §1.4, Option A, one site).
-2. ☐ Verify the live site and API (see `docs/DEPLOYMENT.md` §1.7 and §2.6).
+1. ☐ Website + API on Netlify: see `docs/DEPLOYMENT.md` in the private `shipportx-web-api` repo (sections 1.4 and 2.9).
+2. ☐ Verify the live site and API (same guide, sections 1.7 and 2.6).
 3. ☐ Hugging Face: replace `<HF_NAMESPACE>` and upload (see `huggingface-dataset/PUBLISHING.md`).
-4. ☐ GitHub: init, commit, tag `v1.0.0`, push and create the release (see `docs/DEPLOYMENT.md` §4).
+4. ☐ GitHub: init, commit, tag `v1.0.0`, push and create the release (see `docs/DEPLOYMENT.md` §2).
 5. ☐ Set `VITE_HF_DATASET_URL`, `VITE_GITHUB_REPO_URL` (and optionally `VITE_CONTACT_EMAIL`) on
    Netlify and redeploy so the links appear.
 6. ☐ Replace `<api-host>` / `<HF_NAMESPACE>` / `<OWNER>` placeholders in `github-release/README.md`,
    `github-release/docs/API.md` and the HF card once the URLs exist.
-7. ☐ For sustained traffic, configure a map tile provider account (`docs/DEPLOYMENT.md` §5).
-8. ☐ Final cross-check (see `docs/DEPLOYMENT.md` §6).
+7. ☐ For sustained traffic, configure a map tile provider account (`docs/DEPLOYMENT.md` §3 in `shipportx-web-api`).
+8. ☐ Final cross-check (see `docs/DEPLOYMENT.md` §3 here and §4 in `shipportx-web-api`).
 
 ## D. After release
 
